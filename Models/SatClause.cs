@@ -2,9 +2,10 @@
 
 public class SatClause
 {
+    public int Index { get;  }
     public List<int> Literals { get; }
 
-    public SatClause(List<int> literals)
+    public SatClause(int index, List<int> literals)
     {
         Literals = literals;
     }

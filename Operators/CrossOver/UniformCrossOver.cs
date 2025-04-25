@@ -27,3 +27,4 @@ public class UniformCrossover : ICrossoverOperator<SatSolution>
         return new SatSolution(parent1.Instance, childAssignment);
     }
 }
+

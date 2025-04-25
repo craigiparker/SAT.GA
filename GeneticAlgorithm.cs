@@ -1,6 +1,7 @@
 ﻿// SAT.GA/GeneticAlgorithm.cs
 using SAT.GA.Interfaces;
 using SAT.GA.Models;
+using SAT.GA.Operators.Crossover;
 
 namespace SAT.GA;
 
@@ -53,6 +54,7 @@ public class GeneticAlgorithm
             if (currentBest.Fitness > bestSolution.Fitness)
             {
                 bestSolution = currentBest;
+                Console.WriteLine("Best so far :" + bestSolution.Fitness);
 
                 // Early exit if solution is found
                 if (bestSolution.SatisfiedClausesCount() == instance.Clauses.Count)
@@ -90,11 +92,11 @@ public class GeneticAlgorithm
             }
 
             // Local search (if configured)
-            if (_localSearch != null)
+            if (_localSearch != null )//&& !(_crossover is LocalSearchCrossover))
             {
                 foreach (var child in offspring)
                 {
-                    _localSearch.Improve(child, 10);
+                    _localSearch.Improve(child, 10); //TODO: look at max iter
                 }
             }
 
@@ -110,6 +112,11 @@ public class GeneticAlgorithm
             while (population.Count > populationSize)
             {
                 population.RemoveAt(_random.Next(population.Count));
+            }
+
+            if (gen % 100 == 0)
+            {
+                Console.WriteLine("Gen :" + gen);
             }
         }
 

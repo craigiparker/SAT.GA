@@ -35,6 +35,7 @@ public static class OperatorFactory
         return type switch
         {
             "Uniform" => new UniformCrossover(random),
+            "Clause" => new ClauseSatisfactionCrossover(random),
             "LocalSearch" => new LocalSearchCrossover(random, localSearch!, config.CrossoverRate),
             _ => throw new ArgumentException($"Unknown crossover type: {type}")
         };

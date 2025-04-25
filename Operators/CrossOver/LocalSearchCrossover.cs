@@ -6,7 +6,7 @@ namespace SAT.GA.Operators.Crossover;
 public class LocalSearchCrossover : ICrossoverOperator<SatSolution>
 {
     private readonly Random _random;
-    private readonly ILocalSearch<SatSolution> _localSearch;
+    private readonly ILocalSearch<SatSolution>? _localSearch;
     private readonly double _crossoverRate;
 
     public LocalSearchCrossover(Random random, ILocalSearch<SatSolution> localSearch, double crossoverRate = 0.9)
@@ -36,7 +36,7 @@ public class LocalSearchCrossover : ICrossoverOperator<SatSolution>
         var child = new SatSolution(parent1.Instance, childAssignment);
 
         // Improve with local search
-        _localSearch.Improve(child, 10);
+        _localSearch?.Improve(child, 10); // TODO
 
         return child;
     }

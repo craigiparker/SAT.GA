@@ -12,12 +12,12 @@ public class DimacsParser
         int clauseCount = 0;
         var clauses = new List<SatClause>();
 
-        foreach (var line2 in lines)
+        foreach (var l in lines)
         {
-            var line = line2.Trim();
+            var line = l.Trim();
+            if (line.StartsWith("%")) break; // Finished Processing
             if (line == string.Empty) continue;
             if (line.StartsWith("c")) continue; // Comment
-
             if (line.StartsWith("p"))
             {
                 // Problem line: p cnf variables clauses
@@ -33,7 +33,7 @@ public class DimacsParser
                 .Select(int.Parse)
                 .ToList();
 
-            clauses.Add(new SatClause(literals));
+            clauses.Add(new SatClause(clauses.Count, literals));
         }
 
         if (clauses.Count != clauseCount)
