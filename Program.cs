@@ -21,10 +21,10 @@ public class Program
         ";
 
         //string path = "C:\\KCL\\SAT_DIMACS\\uf100-430";
-        string path = "C:\\KCL\\SAT_DIMACS\\uf100-430";
+        // string path = "C:\\KCL\\SAT_DIMACS\\uf100-430";
         // var path = "C:\\KCL\\SAT_DIMACS\\uf20-91\\uf20-0396.cnf";
         // var path = "C:\\KCL\\SAT_DIMACS\\uf20-91\\uf20-010.cnf";
-        // var path = "C:\\KCL\\SAT_DIMACS\\uf20-91";
+        var path = "C:\\KCL\\SAT_DIMACS\\uf20-91";
         // var path = "C:\\KCL\\SAT_DIMACS\\uf50-218";
         // var path = "C:\\KCL\\SAT_DIMACS\\uf50-218\\uf50-0188.cnf";
         //var path = "C:\\KCL\\SAT_DIMACS\\uf250.1065.100\\ai\\hoos\\Shortcuts\\UF250.1065.100\\uf250-01.cnf";
@@ -40,7 +40,7 @@ public class Program
 
         var writer = new OutputWriter();
 
-        var fileLimit = 20;
+        var fileLimit = 30;
         foreach (var filePath in files.Take(fileLimit))
         {
             total++;
@@ -71,7 +71,7 @@ public class Program
         // {
         //     Console.WriteLine(metric);
         // }
-        writer.WriteCompletion("Press any key to exit.");
+        writer.WriteCompletion($"Solved {solvedCount} of {total}. Press any key to exit.");
         Console.ReadKey();
 
     }
@@ -92,7 +92,8 @@ public class Program
             PopulationSize = 50,
             ElitismRate = 0.1,
             // Generations = 100000,
-            Generations = 100000,
+            //Generations = 100000,
+            Generations = 1000,
             // Generations = 1, // test popn
             MutationRate = 0.01,
             UseLocalSearch = false,
@@ -178,6 +179,7 @@ public class Program
         //Console.WriteLine("Best solution found:");
         //Console.WriteLine($"Satisfied clauses: {solution?.SatisfiedClausesCount()}/{instance.Clauses.Count}");
 
+        writer.Solution = solution.ToPrintable();
         if (solution.SatisfiedClausesCount() == instance.Clauses.Count)
         {
             //Console.WriteLine("SATISFIABLE");
@@ -188,13 +190,14 @@ public class Program
             //     Console.Write($"{sign}{i + 1} ");
             // }
             writer.IsSatisfied = true;
-            writer.Solution = solution.ToPrintable();
+            //writer.Solution = solution.ToPrintable();
             writer.WriteLine("SATISFIABLE");
             //Console.WriteLine(solution.ToPrintable());
             //Console.WriteLine();
             return true;
         }
 
+        writer.IsSatisfied = false;
         return false;
     }
 }
