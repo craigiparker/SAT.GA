@@ -3,7 +3,7 @@
 public class SatInstance
 {
     public int VariableCount { get; }
-    public List<SatClause> Clauses { get; }
+    public List<SatClause> Clauses { get; set; }
 
     public SatInstance(int variableCount, List<SatClause> clauses)
     {
@@ -14,5 +14,10 @@ public class SatInstance
     public bool IsSatisfied(bool[] assignment)
     {
         return Clauses.All(c => c.IsSatisfied(assignment));
+    }
+
+    public int SatisfiedCount(bool[] assignment)
+    {
+        return Clauses.Count(c => c.IsSatisfied(assignment));
     }
 }

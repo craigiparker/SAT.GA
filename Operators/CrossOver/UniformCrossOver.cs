@@ -13,18 +13,31 @@ public class UniformCrossover : ICrossoverOperator<SatSolution>
         _random = random;
     }
 
-    public SatSolution Crossover(SatSolution parent1, SatSolution parent2)
+    public IEnumerable<SatSolution> Crossover(SatSolution parent1, SatSolution parent2)
     {
-        var childAssignment = new bool[parent1.Assignment.Length];
+        var childAssignment1 = new bool[parent1.Assignment.Length];
+        var childAssignment2 = new bool[parent1.Assignment.Length];
 
-        for (int i = 0; i < childAssignment.Length; i++)
+        for (int i = 0; i < childAssignment1.Length; i++)
         {
-            childAssignment[i] = _random.NextDouble() < 0.5
+            childAssignment1[i] = _random.NextDouble() < 0.5
                 ? parent1.Assignment[i]
                 : parent2.Assignment[i];
+
+            if (_random.NextDouble() < 0.5)
+            {
+                childAssignment1[i] = parent1.Assignment[i];
+                childAssignment2[i] = parent2.Assignment[i];
+            }
+            else
+            {
+                childAssignment2[i] = parent1.Assignment[i];
+                childAssignment1[i] = parent2.Assignment[i];
+            }
         }
 
-        return new SatSolution(parent1.Instance, childAssignment);
+        yield return new SatSolution(parent1.Instance, childAssignment1);
+        yield return new SatSolution(parent1.Instance, childAssignment2);
     }
 }
 

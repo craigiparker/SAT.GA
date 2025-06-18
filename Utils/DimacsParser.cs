@@ -1,7 +1,6 @@
-﻿// SAT.GA/Parsers/DimacsParser.cs
-using SAT.GA.Models;
+﻿using SAT.GA.Models;
 
-namespace SAT.GA.Parsers;
+namespace SAT.GA.Utils;
 
 public class DimacsParser
 {

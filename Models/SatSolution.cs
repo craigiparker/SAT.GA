@@ -1,10 +1,15 @@
-﻿namespace SAT.GA.Models;
+﻿using System.Text;
+
+namespace SAT.GA.Models;
 
 public class SatSolution
 {
     public bool[] Assignment { get; set; }
     public SatInstance Instance { get; }
     public double? Fitness { get; set; }
+
+    public int Generations { get; set; }
+    public int Restarts { get; set; }
 
     public SatSolution(SatInstance instance, bool[] assignment)
     {
@@ -31,5 +36,33 @@ public class SatSolution
         }
 
         return $"{Fitness} [{output}]";
+    }
+
+    public string ToPrintable()
+    {
+        StringBuilder output = new StringBuilder();
+        for (int i = 0; i < Assignment.Length; i++)
+        {
+            bool value = Assignment[i];
+            string sign = value ? "" : "-";
+            output.Append($"{sign}{i + 1} ");
+        }
+
+        return output.ToString();
+    }
+
+    public override bool Equals(object? obj)
+    {
+        return obj != null && Equals((SatSolution) obj);
+    }
+
+    protected bool Equals(SatSolution other)
+    {
+        return Assignment.SequenceEqual(other.Assignment);
+    }
+
+    public override int GetHashCode()
+    {
+        return Assignment.GetHashCode();
     }
 }

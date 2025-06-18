@@ -13,4 +13,5 @@ public class GaConfig
     public int TabuTenure { get; set; } = 5;
     public double AmplificationFactor { get; set; } = 2.0;
     public bool UseLocalSearch { get; set; } = true;
+    public int MutationBits { get; set; } = 1;
 }

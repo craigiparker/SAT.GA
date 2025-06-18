@@ -35,7 +35,7 @@ public static class OperatorFactory
         return type switch
         {
             "Uniform" => new UniformCrossover(random),
-            "Clause" => new ClauseSatisfactionCrossover(random),
+            "Clause" => new ClauseSatisfactionCrossover(random, localSearch),
             "LocalSearch" => new LocalSearchCrossover(random, localSearch!, config.CrossoverRate),
             _ => throw new ArgumentException($"Unknown crossover type: {type}")
         };
@@ -43,12 +43,13 @@ public static class OperatorFactory
 
     public static IMutationOperator<SatSolution> CreateMutationOperator(
         string type,
-        Random random)
+        Random random, GaConfig config)
     {
         return type switch
         {
             "BitFlip" => new BitFlipMutation(random),
             "Guided" => new GuidedMutation(random),
+            "NBit" => new NBitMutation(config.MutationBits, random),
             _ => throw new ArgumentException($"Unknown mutation type: {type}")
         };
     }
@@ -60,9 +61,13 @@ public static class OperatorFactory
         return type switch
         {
             "MaxSat" => new MaxSatFitness(),
-            "Weighted" => new WeightedMaxSatFitness(
-                Enumerable.Repeat(1.0, instance.Clauses.Count).ToArray()),
+            "Weighted" => new WeightedMaxSatFitness(instance),
             "Amplified" => new ProbabilityAmplificationFitness(),
+            "Penalty" => new PenaltyBasedFitness(),
+            "VariableConflict" => new VariableConflictFitness(),
+            "DynamicWeight" => new DynamicWeightFitness(),
+            "MultiObjective" => new MultiObjectiveFitness(),
+            "Adaptive" => new AdaptiveFitness(),
             _ => throw new ArgumentException($"Unknown fitness type: {type}")
         };
     }
@@ -76,8 +81,15 @@ public static class OperatorFactory
 
         return type switch
         {
+            "None" => null,
             "Tabu" => new TabuSearch(random, config.TabuTenure),
+            "Tabu2" => new TabuSearch2(),
             "HillClimbing" => new HillClimbing(random),
+            "SimulatedAnnealing" => new SimulatedAnnealing(random, initialTemperature: 100.0, coolingRate: 0.95),
+            "VariableNeighborhood" => new VariableNeighborhoodSearch(random, maxNeighborhoods: 3),
+            "Guided" => new GuidedLocalSearch(random, lambda: 0.1),
+            "Iterated" => new IteratedLocalSearch(random, new HillClimbing(random), perturbationStrength: 0.1),
+            "Clause" => new ClauseSearch(),
             _ => throw new ArgumentException($"Unknown local search type: {type}")
         };
     }

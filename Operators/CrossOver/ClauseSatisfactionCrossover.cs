@@ -8,18 +8,22 @@ public class ClauseSatisfactionCrossover : ICrossoverOperator<SatSolution>
 {
     private readonly Random _random;
     private readonly double _crossoverRate;
+    private readonly ILocalSearch<SatSolution>? _localSearch;
 
-    public ClauseSatisfactionCrossover(Random random, double crossoverRate = 0.9)
+    public ClauseSatisfactionCrossover(Random random, ILocalSearch<SatSolution>? localSearch, double crossoverRate = 0.9)
     {
         _random = random;
+        _localSearch = localSearch;
         _crossoverRate = crossoverRate;
     }
 
-    public SatSolution Crossover(SatSolution parent1, SatSolution parent2)
+    public IEnumerable<SatSolution> Crossover(SatSolution parent1, SatSolution parent2)
     {
         if (_random.NextDouble() > _crossoverRate)
         {
-            return _random.NextDouble() < 0.5 ? parent1 : parent2;
+            var nonCrossoverCandidate = _random.NextDouble() < 0.5 ? parent1 : parent2;
+            yield return new SatSolution(nonCrossoverCandidate.Instance, (bool[])nonCrossoverCandidate.Assignment.Clone());
+            yield break;
         }
 
         var instance = parent1.Instance;
@@ -76,6 +80,11 @@ public class ClauseSatisfactionCrossover : ICrossoverOperator<SatSolution>
                 : parent1.Assignment[i];
         }
 
-        return new SatSolution(instance, childAssignment);
+        var child =  new SatSolution(instance, childAssignment);
+
+        // Improve with local search
+        //_localSearch?.Improve(child, 1000);
+
+        yield return child;
     }
 }

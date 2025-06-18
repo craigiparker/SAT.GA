@@ -3,10 +3,12 @@ using SAT.GA;
 using SAT.GA.Configuration;
 using SAT.GA.Factories;
 using SAT.GA.Models;
-using SAT.GA.Parsers;
 using System.Diagnostics;
+using SAT.GA.Interfaces;
+using System.Threading.Tasks;
+using SAT.GA.Utils;
 
-class Program
+public class Program
 {
     static void Main(string[] args)
     {
@@ -19,53 +21,83 @@ class Program
         ";
 
         //string path = "C:\\KCL\\SAT_DIMACS\\uf100-430";
-        string path = "C:\\KCL\\SAT_DIMACS\\uf100-430\\uf100-01.cnf";
+        string path = "C:\\KCL\\SAT_DIMACS\\uf100-430";
         // var path = "C:\\KCL\\SAT_DIMACS\\uf20-91\\uf20-0396.cnf";
+        // var path = "C:\\KCL\\SAT_DIMACS\\uf20-91\\uf20-010.cnf";
         // var path = "C:\\KCL\\SAT_DIMACS\\uf20-91";
-        // var path = "C:\\KCL\\SAT_DIMACS\\uf250.1065.100\\ai\\hoos\\Shortcuts\\UF250.1065.100\\uf250-01.cnf";
+        // var path = "C:\\KCL\\SAT_DIMACS\\uf50-218";
+        // var path = "C:\\KCL\\SAT_DIMACS\\uf50-218\\uf50-0188.cnf";
+        //var path = "C:\\KCL\\SAT_DIMACS\\uf250.1065.100\\ai\\hoos\\Shortcuts\\UF250.1065.100\\uf250-01.cnf";
+        // var path = "C:\\KCL\\SAT_DIMACS\\uf250.1065.100\\ai\\hoos\\Shortcuts\\UF250.1065.100";
         //var path = "C:\\KCL\\SAT_DIMACS\\Bejing\\2bitcomp_5.cnf";
+        //var path = "C:\\KCL\\SAT_DIMACS\\Bejing\\4blocks.cnf";
 
         var files = Directory.Exists(path) ? Directory.GetFiles(path) : [path];
 
         int solvedCount = 0;
         int total = 0;
+        List<double> metrics = new List<double>();
 
-        foreach (var filePath in files.Take(10))
+        var writer = new OutputWriter();
+
+        var fileLimit = 20;
+        foreach (var filePath in files.Take(fileLimit))
         {
-            Console.WriteLine($"Running file - {filePath}");
+            total++;
+            writer.FilePath = filePath;
+            writer.WriteLine($"Running file - {filePath}");
             var file = File.OpenText(filePath);
             cnfContent = file.ReadToEnd();
 
             var stopWatch = new Stopwatch();
             stopWatch.Start();
-            if (RunInstance(cnfContent)) solvedCount++;
+            writer.StopWatch = stopWatch;
+            if (RunInstance(cnfContent, writer)) solvedCount++;
+            
             stopWatch.Stop();
-            Console.WriteLine("Time taken:" + stopWatch.Elapsed);
-            total++;
-            Console.WriteLine($"Solved {solvedCount} of {total}");
+            
+            writer.WriteLine("Time taken: " + stopWatch.Elapsed.TotalMilliseconds + "ms");
+            metrics.Add(stopWatch.Elapsed.TotalMilliseconds);
+
+            if (total != fileLimit)
+            {
+                writer.ResetInstance();
+            }
+
+            //Console.WriteLine($"Solved {solvedCount} of {total}");
         }
 
-        
+        // foreach (var metric in metrics)
+        // {
+        //     Console.WriteLine(metric);
+        // }
+        writer.WriteCompletion("Press any key to exit.");
+        Console.ReadKey();
+
     }
 
-    private static bool RunInstance(string cnfContent)
+    private static bool RunInstance(string cnfContent, OutputWriter writer)
     {
         // Parse the CNF
         var parser = new DimacsParser();
         var instance = parser.Parse(cnfContent);
 
-        Console.WriteLine($"There are {instance.VariableCount} variables and {instance.Clauses.Count} CNF clauses");
+        writer.VariableCount = instance.VariableCount;
+        writer.ClauseCount = instance.Clauses.Count;
+        writer.WriteLine($"There are {instance.VariableCount} variables and {instance.Clauses.Count} CNF clauses");
 
         // Configure the GA
         var config = new GaConfig
         {
             PopulationSize = 50,
             ElitismRate = 0.1,
-            Generations = 10000,
+            // Generations = 100000,
+            Generations = 100000,
+            // Generations = 1, // test popn
             MutationRate = 0.01,
-            UseLocalSearch = true,
+            UseLocalSearch = false,
             RandomSeed = 42,
-            TabuTenure = (int)(0.1 * instance.VariableCount)
+            TabuTenure = (int)(0.05 * instance.VariableCount)
         };
 
         var random = config.RandomSeed.HasValue
@@ -75,47 +107,91 @@ class Program
         // Create operators
         var localSearch = OperatorFactory.CreateLocalSearch("Tabu", random, config);
         var selection = OperatorFactory.CreateSelectionOperator("Tournament", random, config);
-        var crossover = OperatorFactory.CreateCrossoverOperator("LocalSearch", random, localSearch, config);
+        var crossover = OperatorFactory.CreateCrossoverOperator("Uniform", random, localSearch, config);
         // var crossover = OperatorFactory.CreateCrossoverOperator("Uniform", random, localSearch, config);
         // var crossover = OperatorFactory.CreateCrossoverOperator("Clause", random, localSearch, config);
-        var mutation = OperatorFactory.CreateMutationOperator("Guided", random);
-        var fitness = OperatorFactory.CreateFitnessFunction("MaxSat", instance);
+        var mutation = OperatorFactory.CreateMutationOperator("Guided", random, config);
+        // var mutation = OperatorFactory.CreateMutationOperator("BitFlip", random, config);
+        var fitness = OperatorFactory.CreateFitnessFunction("Amplified", instance);
+        // var fitness = OperatorFactory.CreateFitnessFunction("Weighted", instance);
 
+        return RunInstance(selection, crossover, mutation, fitness, localSearch, config, instance, writer, out var solution);
+    }
+
+    public static bool RunInstance(ISelectionOperator<SatSolution> selection, ICrossoverOperator<SatSolution> crossover,
+        IMutationOperator<SatSolution> mutation,
+        IFitnessFunction<SatSolution> fitness, ILocalSearch<SatSolution>? localSearch, GaConfig config,
+        SatInstance instance, OutputWriter writer, out SatSolution solution)
+    {
         // Create and run GA
         var ga = new GeneticAlgorithm(
             selection,
             crossover,
             mutation,
             fitness,
+            writer,
             localSearch,
             config.RandomSeed);
 
-        var solution = ga.Solve(
-            instance,
-            config.PopulationSize,
-            config.Generations,
-            config.MutationRate,
-            config.ElitismRate);
+        // dummy
+        solution = new SatSolution(instance, []);
+
+        // solution = ga.Solve(
+        //     instance,
+        //     config.PopulationSize,
+        //     config.Generations,
+        //     config.MutationRate,
+        //     config.ElitismRate);
+
+        var tasks = new List<Task<SatSolution>>();
+        object lockObj = new object();
+        SatSolution threadSolution = null;
+        var cts = new CancellationTokenSource();
+        var threadCount = 1;//Environment.ProcessorCount;
+
+        for (int i = 0; i < threadCount; i++)
+        {
+            tasks.Add(Task.Run(() =>
+            {
+                var localGa = new GeneticAlgorithm(selection, crossover, mutation, fitness, writer, localSearch, config.RandomSeed + 10000 * i);
+                var sol = localGa.Solve(instance, config.PopulationSize, config.Generations, config.MutationRate, config.ElitismRate);
+                threadSolution = sol;
+                return sol;
+            }, cts.Token));
+        }
+
+        try
+        {
+            Task.WaitAny(tasks.ToArray());
+            solution = threadSolution;
+        }
+        catch (AggregateException ex)
+        {
+            /* Ignore cancellations */ 
+            //Console.WriteLine(ex);
+            writer.WriteLine(ex.Message);
+            return false;
+        }
+
 
         // Display results
-        Console.WriteLine("Best solution found:");
-        Console.WriteLine($"Satisfied clauses: {solution.SatisfiedClausesCount()}/{instance.Clauses.Count}");
-        // Console.WriteLine("Assignment:");
-        // for (int i = 0; i < solution.Assignment.Length; i++)
-        // {
-        //     Console.WriteLine($"x{i + 1} = {solution.Assignment[i]}");
-        // }
+        //Console.WriteLine("Best solution found:");
+        //Console.WriteLine($"Satisfied clauses: {solution?.SatisfiedClausesCount()}/{instance.Clauses.Count}");
 
         if (solution.SatisfiedClausesCount() == instance.Clauses.Count)
         {
-            Console.WriteLine("SATISFIABLE");
-            for (int i = 0; i < solution.Assignment.Length; i++)
-            {
-                bool value = solution.Assignment[i];
-                string sign = value ? "" : "-";
-                Console.Write($"{sign}{i + 1} ");
-            }
-            Console.WriteLine();
+            //Console.WriteLine("SATISFIABLE");
+            // for (int i = 0; i < solution.Assignment.Length; i++)
+            // {
+            //     bool value = solution.Assignment[i];
+            //     string sign = value ? "" : "-";
+            //     Console.Write($"{sign}{i + 1} ");
+            // }
+            writer.IsSatisfied = true;
+            writer.Solution = solution.ToPrintable();
+            writer.WriteLine("SATISFIABLE");
+            //Console.WriteLine(solution.ToPrintable());
+            //Console.WriteLine();
             return true;
         }
 

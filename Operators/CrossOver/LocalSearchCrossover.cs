@@ -16,11 +16,13 @@ public class LocalSearchCrossover : ICrossoverOperator<SatSolution>
         _crossoverRate = crossoverRate;
     }
 
-    public SatSolution Crossover(SatSolution parent1, SatSolution parent2)
+    public IEnumerable<SatSolution> Crossover(SatSolution parent1, SatSolution parent2)
     {
         if (_random.NextDouble() > _crossoverRate)
         {
-            return _random.NextDouble() < 0.5 ? parent1 : parent2;
+            var nonCrossoverCandidate =  _random.NextDouble() < 0.5 ? parent1 : parent2;
+            yield return new SatSolution(nonCrossoverCandidate.Instance, (bool[])nonCrossoverCandidate.Assignment.Clone());
+            yield break;
         }
 
         var childAssignment = new bool[parent1.Assignment.Length];
@@ -36,8 +38,8 @@ public class LocalSearchCrossover : ICrossoverOperator<SatSolution>
         var child = new SatSolution(parent1.Instance, childAssignment);
 
         // Improve with local search
-        _localSearch?.Improve(child, 10); // TODO
+        _localSearch?.Improve(child, 1000); // TODO
 
-        return child;
+        yield return child;
     }
 }

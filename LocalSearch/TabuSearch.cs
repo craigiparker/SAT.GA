@@ -10,7 +10,7 @@ public class TabuSearch : ILocalSearch<SatSolution>
     private readonly int _tabuTenure;
     private readonly int _maxIterations;
 
-    public TabuSearch(Random random, int tabuTenure = 5, int maxIterations = 100)
+    public TabuSearch(Random random, int tabuTenure = 5, int maxIterations = 10000)
     {
         _random = random;
         _tabuTenure = tabuTenure;
@@ -41,6 +41,7 @@ public class TabuSearch : ILocalSearch<SatSolution>
                 {
                     bestMove = i;
                     bestMoveFitness = currentFitness;
+                    
                 }
             }
 
@@ -61,6 +62,10 @@ public class TabuSearch : ILocalSearch<SatSolution>
             {
                 bestFitness = bestMoveFitness;
                 bestAssignment = (bool[])individual.Assignment.Clone();
+            }
+            else
+            {
+                break;
             }
         }
 

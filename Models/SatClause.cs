@@ -3,10 +3,11 @@
 public class SatClause
 {
     public int Index { get;  }
-    public List<int> Literals { get; }
+    public List<int> Literals { get; set; }
 
     public SatClause(int index, List<int> literals)
     {
+        Index = index;
         Literals = literals;
     }
 

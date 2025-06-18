@@ -16,6 +16,15 @@ public class GuidedMutation : IMutationOperator<SatSolution>
     {
         var instance = individual.Instance;
 
+        //if (_random.NextDouble() > 0.8)
+        //{
+        //    for (var i = 0; i < 3; i++)
+        //    {
+        //        var mutatedBit = _random.Next(individual.Assignment.Length);
+        //        individual.Assignment[mutatedBit] = !individual.Assignment[mutatedBit];
+        //    }
+        //}
+
         // Find unsatisfied clauses
         var unsatisfiedClauses = instance.Clauses
             .Where(c => !c.IsSatisfied(individual.Assignment))
