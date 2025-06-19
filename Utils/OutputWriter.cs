@@ -91,8 +91,18 @@ public class OutputWriter
             for(int i=0; i<=this.VariableCount; i+=25)
                 output.AppendLine(new string(' ', Console.BufferWidth));
         }
-        //Console.Clear();
-        Console.SetCursorPosition(0, (15 + VariableCount / 30) * Instance );
+
+        var cursorPosition = (15 + VariableCount / 30) * Instance;
+        if (cursorPosition > Console.BufferHeight)
+        {
+            Instance = 0;
+            Console.Clear();
+        }
+        else
+        {
+            Console.SetCursorPosition(0, cursorPosition);
+        }
+
         Console.WriteLine(output);
     }
 

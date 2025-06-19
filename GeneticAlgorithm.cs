@@ -157,7 +157,8 @@ public class GeneticAlgorithm
         int populationSize,
         int generations,
         double mutationRate,
-        double elitismRate = 0.1)
+        double elitismRate = 0.1,
+        CancellationToken? cancellationToken = null)
     {
         // Experiment
         //var equivalentLiterals = FindEquivalentLiterals(instance);
@@ -197,8 +198,13 @@ public class GeneticAlgorithm
 
         for (gen = 0; gen < generations; gen++)
         {
+            if (cancellationToken is { IsCancellationRequested: true })
+            {
+                return null;
+            }
+
             // Evaluate fitness
-            foreach (var individual in population)
+                foreach (var individual in population)
             {
                 // Local search (if configured)
                 if (_localSearch != null)//&& !(_crossover is LocalSearchCrossover))
