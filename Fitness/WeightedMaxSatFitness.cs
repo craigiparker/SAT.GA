@@ -6,12 +6,10 @@ namespace SAT.GA.Fitness;
 public class WeightedMaxSatFitness : IFitnessFunction<SatSolution>
 {
     private readonly double[] _clauseWeights;
-    private readonly Dictionary<int, int> _variableFrequency;
 
     public WeightedMaxSatFitness(SatInstance instance)
     {
         _clauseWeights = CalculateClauseWeights(instance);
-        _variableFrequency = CalculateVariableFrequency(instance);
     }
 
     private double[] CalculateClauseWeights(SatInstance instance)
@@ -62,10 +60,7 @@ public class WeightedMaxSatFitness : IFitnessFunction<SatSolution>
             foreach (var literal in clause.Literals)
             {
                 var variable = Math.Abs(literal);
-                if (!frequency.ContainsKey(variable))
-                {
-                    frequency[variable] = 0;
-                }
+                frequency.TryAdd(variable, 0);
                 frequency[variable]++;
             }
         }

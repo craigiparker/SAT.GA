@@ -6,7 +6,7 @@ public class DimacsParser
 {
     public SatInstance Parse(string cnfContent)
     {
-        var lines = cnfContent.Split(new[] { '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries);
+        var lines = cnfContent.Split(['\n', '\r'], StringSplitOptions.RemoveEmptyEntries);
         int variableCount = 0;
         int clauseCount = 0;
         var clauses = new List<SatClause>();
@@ -20,14 +20,14 @@ public class DimacsParser
             if (line.StartsWith("p"))
             {
                 // Problem line: p cnf variables clauses
-                var parts = line.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+                var parts = line.Split([' '], StringSplitOptions.RemoveEmptyEntries);
                 variableCount = int.Parse(parts[2]);
                 clauseCount = int.Parse(parts[3]);
                 continue;
             }
 
             // Clause line
-            var literals = line.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
+            var literals = line.Split([' '], StringSplitOptions.RemoveEmptyEntries)
                 .TakeWhile(s => s != "0")
                 .Select(int.Parse)
                 .ToList();

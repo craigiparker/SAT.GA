@@ -22,6 +22,14 @@ public class SatSolution
         return Instance.Clauses.Count(c => c.IsSatisfied(Assignment));
     }
 
+    public bool IsSolution
+    {
+        get
+        {
+            return Instance.Clauses.All(c => c.IsSatisfied(Assignment));
+        }
+    }
+
     public List<SatClause> UnSatisifedClauses()
     {
         return Instance.Clauses.Where(c => !c.IsSatisfied(Assignment)).ToList();

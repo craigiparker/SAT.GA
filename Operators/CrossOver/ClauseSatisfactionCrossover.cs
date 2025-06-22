@@ -1,5 +1,4 @@
-﻿// SAT.GA/Operators/Crossover/ClauseSatisfactionCrossover.cs
-using SAT.GA.Interfaces;
+﻿using SAT.GA.Interfaces;
 using SAT.GA.Models;
 
 namespace SAT.GA.Operators.Crossover;
@@ -81,10 +80,6 @@ public class ClauseSatisfactionCrossover : ICrossoverOperator<SatSolution>
         }
 
         var child =  new SatSolution(instance, childAssignment);
-
-        // Improve with local search
-        //_localSearch?.Improve(child, 1000);
-
         yield return child;
     }
 }

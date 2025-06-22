@@ -1,5 +1,4 @@
-﻿// SAT.GA/LocalSearch/TabuSearch.cs
-using SAT.GA.Interfaces;
+﻿using SAT.GA.Interfaces;
 using SAT.GA.Models;
 
 namespace SAT.GA.LocalSearch;

@@ -1,5 +1,4 @@
-﻿// SAT.GA/Operators/Mutation/BitFlipMutation.cs
-using SAT.GA.Interfaces;
+﻿using SAT.GA.Interfaces;
 using SAT.GA.Models;
 
 namespace SAT.GA.Operators.Mutation;

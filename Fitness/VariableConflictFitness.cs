@@ -26,9 +26,9 @@ public class VariableConflictFitness : IFitnessFunction<SatSolution>
                 var variable = Math.Abs(literal);
                 var expectedValue = literal > 0;
                 
-                if (variableAssignments.ContainsKey(variable))
+                if (variableAssignments.TryGetValue(variable, out var assignment))
                 {
-                    if (variableAssignments[variable] != expectedValue)
+                    if (assignment != expectedValue)
                         conflicts++;
                 }
                 else

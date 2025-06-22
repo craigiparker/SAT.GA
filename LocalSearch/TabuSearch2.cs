@@ -12,12 +12,6 @@ public class TabuSearch2 : ILocalSearch<SatSolution>
     private readonly int _maxViolations;
     private readonly double _diversificationStrength;
 
-    public TabuSearch2(
-        )
-    {
-        
-    }
-
     public void Improve(SatSolution individual, int maxIterations)
     {
         int variableCount = individual.Assignment.Length;
@@ -84,11 +78,6 @@ public class TabuSearch2 : ILocalSearch<SatSolution>
         individual.Fitness = bestScore;
     }
 
-
-    // private double TotalClauseWeight(SatInstance instance)
-    // {
-    //     return instance.ClauseWeights.Sum();
-    // }
 
     private void Flip(bool[] assignment, int index)
     {

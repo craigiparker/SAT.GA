@@ -1,5 +1,4 @@
-﻿// SAT.GA/Configuration/GaConfig.cs
-namespace SAT.GA.Configuration;
+﻿namespace SAT.GA.Configuration;
 
 public class GaConfig
 {
@@ -21,4 +20,5 @@ public class GaConfig
     public string CrossoverOperator { get; set; } = "Uniform";
     public string MutationOperator { get; set; } = "Guided";
     public string FitnessFunction { get; set; } = "Amplified";
+    public string PopulationGenerator { get; set; } = "Clause";
 }

@@ -105,6 +105,10 @@ public class GaConfigParser
                         config.FitnessFunction = args[++i];
                         break;
 
+                    case "--generator":
+                        config.PopulationGenerator = args[++i];
+                        break;
+
                     default:
                         Console.WriteLine($"Unknown flag: {flag}");
                         Console.WriteLine("Use -h or --help for available options");
@@ -147,6 +151,7 @@ public class GaConfigParser
         Console.WriteLine("      --crossover <string>          Crossover operator (default: Uniform)");
         Console.WriteLine("      --mutation <string>           Mutation operator (default: Guided)");
         Console.WriteLine("      --fitness <string>            Fitness function (default: Amplified)");
+        Console.WriteLine("      --generator <string>            Population Generator (default: Clause)");
         Console.WriteLine("  -h, --help                  Show this help message");
     }
 }

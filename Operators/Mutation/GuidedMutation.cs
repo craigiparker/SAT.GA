@@ -3,28 +3,12 @@ using SAT.GA.Models;
 
 namespace SAT.GA.Operators.Mutation;
 
-public class GuidedMutation : IMutationOperator<SatSolution>
+public class GuidedMutation(Random random) : IMutationOperator<SatSolution>
 {
-    private readonly Random _random;
-
-    public GuidedMutation(Random random)
-    {
-        _random = random;
-    }
-
     public void Mutate(SatSolution individual, double mutationRate)
     {
         var instance = individual.Instance;
-
-        //if (_random.NextDouble() > 0.8)
-        //{
-        //    for (var i = 0; i < 3; i++)
-        //    {
-        //        var mutatedBit = _random.Next(individual.Assignment.Length);
-        //        individual.Assignment[mutatedBit] = !individual.Assignment[mutatedBit];
-        //    }
-        //}
-
+        
         // Find unsatisfied clauses
         var unsatisfiedClauses = instance.Clauses
             .Where(c => !c.IsSatisfied(individual.Assignment))
@@ -33,10 +17,10 @@ public class GuidedMutation : IMutationOperator<SatSolution>
         if (!unsatisfiedClauses.Any()) return;
 
         // Pick a random unsatisfied clause
-        var clause = unsatisfiedClauses[_random.Next(unsatisfiedClauses.Count)];
+        var clause = unsatisfiedClauses[random.Next(unsatisfiedClauses.Count)];
 
         // Flip a random variable in this clause
-        var literal = clause.Literals[_random.Next(clause.Literals.Count)];
+        var literal = clause.Literals[random.Next(clause.Literals.Count)];
         var variable = Math.Abs(literal) - 1;
 
         individual.Assignment[variable] = !individual.Assignment[variable];

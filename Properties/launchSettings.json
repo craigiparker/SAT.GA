@@ -2,8 +2,8 @@
   "profiles": {
     "SAT.GA": {
       "commandName": "Project",
-      //"commandLineArgs": "C:\\KCL\\SAT_DIMACS\\uf50-218 -fc 1 --seed 42"
-      "commandLineArgs": "C:\\KCL\\SAT_DIMACS\\uf50-218\\uf50-0188.cnf -fc 1 --seed 42",
+      "commandLineArgs": "C:\\KCL\\SAT_DIMACS\\uf50-218 -fc 100 --seed 42"
+      //"commandLineArgs": "C:\\KCL\\SAT_DIMACS\\uf50-218\\uf50-0188.cnf -fc 1 --seed 42",
       //"commandLineArgs": "C:\\KCL\\SAT_DIMACS\\uf50-218\\uf50-0188.cnf -fc 1 -tc 2",
       //"commandLineArgs": "C:\\KCL\\SAT_DIMACS\\uf100-430 -seed 42 -fc 1"
       //"commandLineArgs": "C:\\KCL\\Code\\DM\\DMCoursework\\data_sets\\data\\adult.csv"

@@ -1,5 +1,4 @@
-﻿// SAT.GA/Factories/OperatorFactory.cs
-using SAT.GA.Configuration;
+﻿using SAT.GA.Configuration;
 using SAT.GA.Fitness;
 using SAT.GA.Interfaces;
 using SAT.GA.LocalSearch;
@@ -7,6 +6,7 @@ using SAT.GA.Models;
 using SAT.GA.Operators.Crossover;
 using SAT.GA.Operators.Mutation;
 using SAT.GA.Operators.Selection;
+using SAT.GA.Population;
 
 namespace SAT.GA.Factories;
 
@@ -35,6 +35,8 @@ public static class OperatorFactory
         return type switch
         {
             "Uniform" => new UniformCrossover(random),
+            "1Point" => new NPointCrossover(1,random),
+            "2Point" => new NPointCrossover(2,random),
             "Clause" => new ClauseSatisfactionCrossover(random, localSearch),
             "LocalSearch" => new LocalSearchCrossover(random, localSearch!, config.CrossoverRate),
             _ => throw new ArgumentException($"Unknown crossover type: {type}")
@@ -51,6 +53,18 @@ public static class OperatorFactory
             "Guided" => new GuidedMutation(random),
             "NBit" => new NBitMutation(config.MutationBits, random),
             _ => throw new ArgumentException($"Unknown mutation type: {type}")
+        };
+    }
+
+    public static IPopulationGenerator CreatePopulationGenerator(
+        string type,
+        Random random, SatInstance instance)
+    {
+        return type switch
+        {
+            "Random" => new RandomPopulationGenerator(instance, random),
+            "Clause" => new ClauseProbabilityPopulationGenerator(instance, random),
+            _ => throw new ArgumentException($"Unknown population generator type: {type}")
         };
     }
 

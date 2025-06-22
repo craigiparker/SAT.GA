@@ -1,5 +1,4 @@
-﻿// SAT.GA/Operators/Crossover/UniformCrossover.cs
-using SAT.GA.Interfaces;
+﻿using SAT.GA.Interfaces;
 using SAT.GA.Models;
 
 namespace SAT.GA.Operators.Crossover;
@@ -40,4 +39,3 @@ public class UniformCrossover : ICrossoverOperator<SatSolution>
         yield return new SatSolution(parent1.Instance, childAssignment2);
     }
 }
-

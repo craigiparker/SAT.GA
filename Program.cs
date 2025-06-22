@@ -122,17 +122,17 @@ public class Program
         var crossover = OperatorFactory.CreateCrossoverOperator(config.CrossoverOperator, random, localSearch, config);
         var mutation = OperatorFactory.CreateMutationOperator(config.MutationOperator, random, config);
         var fitness = OperatorFactory.CreateFitnessFunction(config.FitnessFunction, instance);
+        var generator = OperatorFactory.CreatePopulationGenerator(config.PopulationGenerator, random, instance);
 
 
-        return RunInstance(selection, crossover, mutation, fitness, localSearch, config, instance, writer, out solution);
+        return RunInstance(selection, crossover, mutation, fitness, localSearch, generator, config, instance, writer, out solution);
     }
 
     public static bool RunInstance(ISelectionOperator<SatSolution> selection, ICrossoverOperator<SatSolution> crossover,
-        IMutationOperator<SatSolution> mutation,
-        IFitnessFunction<SatSolution> fitness, ILocalSearch<SatSolution>? localSearch, GaConfig config,
-        SatInstance instance, OutputWriter writer, out SatSolution solution)
+        IMutationOperator<SatSolution> mutation, IFitnessFunction<SatSolution> fitness, ILocalSearch<SatSolution>? localSearch, 
+        IPopulationGenerator generator, GaConfig config, SatInstance instance, OutputWriter writer, out SatSolution solution)
     {
-        // Create and run GA
+        // Find SAT Solution
         if (config.ThreadCount <= 1)
         {
             var ga = new GeneticAlgorithm(
@@ -140,48 +140,22 @@ public class Program
                 crossover,
                 mutation,
                 fitness,
+                generator,
                 writer,
                 localSearch,
                 config.RandomSeed);
 
             solution = ga.Solve(
                 instance,
-                config.PopulationSize,
-                config.Generations,
-                config.MutationRate,
-                config.ElitismRate);
+                config);
         }
         else
         {
-            var tasks = new List<Task<SatSolution>>();
-            SatSolution threadSolution = null;
-            var cts = new CancellationTokenSource();
-            
-            for (int i = 0; i < config.ThreadCount; i++)
+            if (!SolveInParallel(selection, crossover, mutation, fitness, localSearch, generator, config, instance,
+                    writer, out solution))
             {
-                tasks.Add(Task.Run(() =>
-                {
-                    var localGa = new GeneticAlgorithm(selection, crossover, mutation, fitness, writer, localSearch); // TODO: Support seed
-                    var sol = localGa.Solve(instance, config.PopulationSize, config.Generations, config.MutationRate, config.ElitismRate, cts.Token);
-                    threadSolution = sol;
-                    return sol;
-                }, cts.Token));
-            }
-            
-            try
-            {
-                Task.WaitAny(tasks.ToArray());
-                solution = threadSolution;
-                cts.Cancel();
-            }
-            catch (AggregateException ex)
-            {
-                /* Ignore cancellations */ 
-                writer.WriteLine(ex.Message);
-                solution = null;
                 return false;
             }
-
         }
 
         writer.Solution = solution.ToPrintable();
@@ -194,5 +168,41 @@ public class Program
 
         writer.IsSatisfied = false;
         return false;
+    }
+
+    private static bool SolveInParallel(ISelectionOperator<SatSolution> selection, ICrossoverOperator<SatSolution> crossover,
+        IMutationOperator<SatSolution> mutation, IFitnessFunction<SatSolution> fitness, ILocalSearch<SatSolution>? localSearch, IPopulationGenerator generator,
+        GaConfig config, SatInstance instance, OutputWriter writer, out SatSolution? solution)
+    {
+        var tasks = new List<Task<SatSolution>>();
+        SatSolution threadSolution = null;
+        var cts = new CancellationTokenSource();
+            
+        for (int i = 0; i < config.ThreadCount; i++)
+        {
+            tasks.Add(Task.Run(() =>
+            {
+                var localGa = new GeneticAlgorithm(selection, crossover, mutation, fitness, generator, writer, localSearch); // TODO: Support seed
+                var sol = localGa.Solve(instance, config, cts.Token);
+                threadSolution = sol;
+                return sol;
+            }, cts.Token));
+        }
+            
+        try
+        {
+            Task.WaitAny(tasks.ToArray());
+            solution = threadSolution;
+            cts.Cancel();
+        }
+        catch (AggregateException ex)
+        {
+            /* Ignore cancellations */ 
+            writer.WriteLine(ex.Message);
+            solution = null;
+            return false;
+        }
+
+        return true;
     }
 }
