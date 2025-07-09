@@ -24,7 +24,7 @@ public class GeneticAlgorithm(
     {
         // Initialize population
         var population = generator.InitializePopulation(config.PopulationSize);
-        var bestSolution = population.First();
+        var bestSolution = population[0];
         var genLastChange = 0;
         var restartCount = 0;
         int currentGeneration = 0;
@@ -35,6 +35,14 @@ public class GeneticAlgorithm(
             if (cancellationToken is { IsCancellationRequested: true })
             {
                 return null;
+            }
+
+            if (currentGeneration - genLastChange > config.RestartAfter)
+            {
+                writer.Restarts = restartCount;
+                population = generator.InitializePopulation(config.PopulationSize);
+                bestSolution = null;
+                restartCount++;
             }
 
             // Evaluate fitness
@@ -57,24 +65,6 @@ public class GeneticAlgorithm(
                     generator.OverrideSolution(bestSolution);
                     break;
                 }
-            }
-            else if(currentGeneration - genLastChange > config.RestartAfter)
-            {
-                writer.Restarts = restartCount;
-                population = generator.InitializePopulation(config.PopulationSize);
-                foreach (var individual in population)
-                {
-                    individual.Fitness = fitness.Calculate(individual);
-                }
-
-                genLastChange = currentGeneration;
-                if (bestSolution.Fitness > bestSolutionUninterrupted.Fitness)
-                {
-                    bestSolutionUninterrupted = bestSolution;
-                }
-
-                bestSolution = null;
-                restartCount++;
             }
 
             // Apply elitism
