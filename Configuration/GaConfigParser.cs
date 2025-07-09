@@ -109,6 +109,10 @@ public class GaConfigParser
                         config.PopulationGenerator = args[++i];
                         break;
 
+                    case "--hide":
+                        config.HideOutput = bool.Parse(args[++i]);
+                        break;
+
                     default:
                         Console.WriteLine($"Unknown flag: {flag}");
                         Console.WriteLine("Use -h or --help for available options");

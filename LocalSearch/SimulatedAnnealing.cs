@@ -9,7 +9,7 @@ public class SimulatedAnnealing : ILocalSearch<SatSolution>
     private readonly double _initialTemperature;
     private readonly double _coolingRate;
 
-    public SimulatedAnnealing(Random random, double initialTemperature = 100.0, double coolingRate = 0.95)
+    public SimulatedAnnealing(Random random, double initialTemperature = 100.0, double coolingRate = 0.9)
     {
         _random = random;
         _initialTemperature = initialTemperature;
@@ -28,6 +28,7 @@ public class SimulatedAnnealing : ILocalSearch<SatSolution>
             // Randomly select a variable to flip
             var flipIndex = _random.Next(individual.Assignment.Length);
             individual.Assignment[flipIndex] = !individual.Assignment[flipIndex];
+            if (individual.IsSolution) return;
             var newFitness = individual.SatisfiedClausesCount();
 
             // Calculate acceptance probability

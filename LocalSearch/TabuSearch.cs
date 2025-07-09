@@ -34,13 +34,15 @@ public class TabuSearch : ILocalSearch<SatSolution>
 
                 individual.Assignment[i] = !individual.Assignment[i];
                 var currentFitness = individual.SatisfiedClausesCount();
+
+                if (individual.IsSolution) return;
+
                 individual.Assignment[i] = !individual.Assignment[i];
 
                 if (currentFitness > bestMoveFitness)
                 {
                     bestMove = i;
                     bestMoveFitness = currentFitness;
-                    
                 }
             }
 

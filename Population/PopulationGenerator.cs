@@ -7,6 +7,11 @@ public abstract class PopulationGenerator : IPopulationGenerator
 {
     public abstract SatSolution CreateNewIndividual();
 
+    public virtual SatSolution CreateNewIndividual(List<SatSolution> population)
+    {
+        return CreateNewIndividual();
+    }
+
     public virtual void OverrideSolution(SatSolution solution)
     {
     }
@@ -17,7 +22,7 @@ public abstract class PopulationGenerator : IPopulationGenerator
 
         for (int i = 0; i < populationSize; i++)
         {
-            population.Add(CreateNewIndividual());
+            population.Add(CreateNewIndividual(population));
         }
 
         return population;

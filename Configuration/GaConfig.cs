@@ -2,8 +2,8 @@
 
 public class GaConfig
 {
-    public int PopulationSize { get; set; } = 50;
-    public int Generations { get; set; } = 100000;
+    public int PopulationSize { get; set; } = 30;
+    public int Generations { get; set; } = 20000;
     public double MutationRate { get; set; } = 0.01;
     public double CrossoverRate { get; set; } = 0.9;
     public double ElitismRate { get; set; } = 0.1;
@@ -15,10 +15,13 @@ public class GaConfig
     public int MutationBits { get; set; } = 1;
     public int FileCountLimit { get; set; } = 1000;
     public int ThreadCount { get; set; } = 1;
-    public string LocalSearchMethod { get; set; } = "Tabu";
+    public int RestartAfter { get; set; } = 25;
+
+    public bool HideOutput { get; set; } = false;
+    public string LocalSearchMethod { get; set; } = "None";
     public string SelectionOperator { get; set; } = "Tournament";
-    public string CrossoverOperator { get; set; } = "Uniform";
+    public string CrossoverOperator { get; set; } = "1Point";
     public string MutationOperator { get; set; } = "Guided";
-    public string FitnessFunction { get; set; } = "Amplified";
+    public string FitnessFunction { get; set; } = "Weighted";
     public string PopulationGenerator { get; set; } = "Clause";
 }

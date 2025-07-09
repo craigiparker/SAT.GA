@@ -23,6 +23,8 @@ public class OutputWriter
 
     public int Instance { get; private set; }
 
+    public bool HideOutput { get; set; }
+
     private void Write()
     {
         var output = new StringBuilder();
@@ -116,6 +118,11 @@ public class OutputWriter
 
     public void ResetInstance()
     {
+        if (HideOutput)
+        {
+            return;
+        }
+
         lock (_locker)
         {
             Write();
@@ -126,6 +133,11 @@ public class OutputWriter
 
     public void WriteLine(string message)
     {
+        if (HideOutput)
+        {
+            return;
+        }
+
         Message = message;
         Task.Run(WriteSync);
     }
@@ -137,6 +149,12 @@ public class OutputWriter
 
     public void WriteCompletion(string message)
     {
+        if (HideOutput)
+        {
+            Console.WriteLine(message);
+            return;
+        }
+
         lock (_locker)
         {
             Console.WriteLine(message);

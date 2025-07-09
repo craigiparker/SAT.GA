@@ -2,23 +2,7 @@
   "profiles": {
     "SAT.GA": {
       "commandName": "Project",
-      "commandLineArgs": "C:\\KCL\\SAT_DIMACS\\uf50-218 -fc 100 --seed 42"
-      //"commandLineArgs": "C:\\KCL\\SAT_DIMACS\\uf50-218\\uf50-0188.cnf -fc 1 --seed 42",
-      //"commandLineArgs": "C:\\KCL\\SAT_DIMACS\\uf50-218\\uf50-0188.cnf -fc 1 -tc 2",
-      //"commandLineArgs": "C:\\KCL\\SAT_DIMACS\\uf100-430 -seed 42 -fc 1"
-      //"commandLineArgs": "C:\\KCL\\Code\\DM\\DMCoursework\\data_sets\\data\\adult.csv"
-    }
+      "commandLineArgs": "C:\\KCL\\SAT_DIMACS\\uf100-430 --seed 2025 -fc 50"
+}
   }
 }
-
-        //string path = "C:\\KCL\\SAT_DIMACS\\uf100-430";
-        //string path = "C:\\KCL\\SAT_DIMACS\\uf100-430";
-        // var path = "C:\\KCL\\SAT_DIMACS\\uf20-91\\uf20-0396.cnf";
-        // var path = "C:\\KCL\\SAT_DIMACS\\uf20-91\\uf20-010.cnf";
-        // var path = "C:\\KCL\\SAT_DIMACS\\uf20-91";
-        // var path = "C:\\KCL\\SAT_DIMACS\\uf50-218";
-        // var path = "C:\\KCL\\SAT_DIMACS\\uf50-218\\uf50-0188.cnf";
-        //var path = "C:\\KCL\\SAT_DIMACS\\uf250.1065.100\\ai\\hoos\\Shortcuts\\UF250.1065.100\\uf250-01.cnf";
-        // var path = "C:\\KCL\\SAT_DIMACS\\uf250.1065.100\\ai\\hoos\\Shortcuts\\UF250.1065.100";
-        //var path = "C:\\KCL\\SAT_DIMACS\\Bejing\\2bitcomp_5.cnf";
-        //var path = "C:\\KCL\\SAT_DIMACS\\Bejing\\4blocks.cnf";

@@ -27,7 +27,7 @@ public class GeneticAlgorithm(
         var bestSolution = population.First();
         var genLastChange = 0;
         var restartCount = 0;
-        int currentGeneration;
+        int currentGeneration = 0;
         var bestSolutionUninterrupted = bestSolution;
 
         for (currentGeneration = 0; currentGeneration < config.Generations; currentGeneration++)
@@ -40,7 +40,6 @@ public class GeneticAlgorithm(
             // Evaluate fitness
             foreach (var individual in population)
             {
-                RunLocalSearch();
                 individual.Fitness = fitness.Calculate(individual);
             }
 
@@ -59,9 +58,9 @@ public class GeneticAlgorithm(
                     break;
                 }
             }
-            else if(currentGeneration - genLastChange > 100)
+            else if(currentGeneration - genLastChange > config.RestartAfter)
             {
-                writer.Restarts++;
+                writer.Restarts = restartCount;
                 population = generator.InitializePopulation(config.PopulationSize);
                 foreach (var individual in population)
                 {
@@ -84,7 +83,6 @@ public class GeneticAlgorithm(
                 .OrderByDescending(i => i.Fitness)
                 .Take(eliteCount)
                 .ToList();
-
             // Selection
             var remainder = config.PopulationSize - eliteCount;
             if (remainder % 2 == 1) remainder++;
@@ -98,8 +96,10 @@ public class GeneticAlgorithm(
 
                 var parent1 = selected[i];
                 var parent2 = selected[i + 1];
-                var child = crossover.Crossover(parent1, parent2);
-                offspring.AddRange(child);
+                var children = crossover.Crossover(parent1, parent2);
+                offspring.AddRange(children);
+
+                if (DoLocalSearch(children, currentGeneration, restartCount, out var solution)) return solution;
             }
 
             // Mutation
@@ -131,6 +131,7 @@ public class GeneticAlgorithm(
 
             if (currentGeneration % 300 == 0)
             {
+                // Update Writer periodically
                 writer.WriteLine("Generation :" + currentGeneration);
             }
 
@@ -144,24 +145,26 @@ public class GeneticAlgorithm(
         return bestSolution;
     }
 
-    // TODO
-    private void RunLocalSearch()
+    private bool DoLocalSearch(IEnumerable<SatSolution> population, int currentGeneration, int restartCount, out SatSolution solve)
     {
-        // Local search (if configured) TODO: Review code
-        // if (localSearch != null)//&& !(_crossover is LocalSearchCrossover))
-        // {
-        //     //foreach (var child in offspring)
-        //     {
-        //         localSearch.Improve(individual, 10000); //TODO: look at max iter
-        //
-        //         if (individual.IsSolution)
-        //         {
-        //             bestSolution = individual;
-        //             bestSolution.Generations = currentGeneration;
-        //             bestSolution.Restarts = restartCount;
-        //             return bestSolution;
-        //         }
-        //     }
-        // }
+        SatSolution bestSolution;
+        if (localSearch != null)
+        {
+            foreach (var individual in population)
+            {
+                localSearch.Improve(individual, 30);
+                if (individual.IsSolution)
+                {
+                    bestSolution = individual;
+                    bestSolution.Generations = currentGeneration;
+                    bestSolution.Restarts = restartCount;
+                    solve = bestSolution;
+                    return true;
+                }
+            }
+        }
+
+        solve = null;
+        return false;
     }
 }

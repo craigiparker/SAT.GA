@@ -38,7 +38,6 @@ public static class OperatorFactory
             "1Point" => new NPointCrossover(1,random),
             "2Point" => new NPointCrossover(2,random),
             "Clause" => new ClauseSatisfactionCrossover(random, localSearch),
-            "LocalSearch" => new LocalSearchCrossover(random, localSearch!, config.CrossoverRate),
             _ => throw new ArgumentException($"Unknown crossover type: {type}")
         };
     }
@@ -52,6 +51,8 @@ public static class OperatorFactory
             "BitFlip" => new BitFlipMutation(random),
             "Guided" => new GuidedMutation(random),
             "NBit" => new NBitMutation(config.MutationBits, random),
+            "1Bit" => new NBitMutation(1, random),
+            "2Bit" => new NBitMutation(2, random),
             _ => throw new ArgumentException($"Unknown mutation type: {type}")
         };
     }
@@ -64,6 +65,7 @@ public static class OperatorFactory
         {
             "Random" => new RandomPopulationGenerator(instance, random),
             "Clause" => new ClauseProbabilityPopulationGenerator(instance, random),
+            "Diversity" => new DiversityBasedPopulationGenerator(instance, random),
             _ => throw new ArgumentException($"Unknown population generator type: {type}")
         };
     }
@@ -77,11 +79,6 @@ public static class OperatorFactory
             "MaxSat" => new MaxSatFitness(),
             "Weighted" => new WeightedMaxSatFitness(instance),
             "Amplified" => new ProbabilityAmplificationFitness(),
-            "Penalty" => new PenaltyBasedFitness(),
-            "VariableConflict" => new VariableConflictFitness(),
-            "DynamicWeight" => new DynamicWeightFitness(),
-            "MultiObjective" => new MultiObjectiveFitness(),
-            "Adaptive" => new AdaptiveFitness(),
             _ => throw new ArgumentException($"Unknown fitness type: {type}")
         };
     }
@@ -97,13 +94,9 @@ public static class OperatorFactory
         {
             "None" => null,
             "Tabu" => new TabuSearch(random, config.TabuTenure),
-            "Tabu2" => new TabuSearch2(),
             "HillClimbing" => new HillClimbing(random),
             "SimulatedAnnealing" => new SimulatedAnnealing(random, initialTemperature: 100.0, coolingRate: 0.95),
-            "VariableNeighborhood" => new VariableNeighborhoodSearch(random, maxNeighborhoods: 3),
-            "Guided" => new GuidedLocalSearch(random, lambda: 0.1),
-            "Iterated" => new IteratedLocalSearch(random, new HillClimbing(random), perturbationStrength: 0.1),
-            "Clause" => new ClauseSearch(),
+            
             _ => throw new ArgumentException($"Unknown local search type: {type}")
         };
     }

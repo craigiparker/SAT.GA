@@ -18,7 +18,7 @@ public class Program
         var metrics = new List<double>();
         var solutions = new List<SatSolution>();
 
-        var writer = new OutputWriter();
+        var writer = new OutputWriter{HideOutput = config.HideOutput};
         var parser = new DimacsParser();
 
         foreach (var filePath in files.Take(config.FileCountLimit))
@@ -36,7 +36,15 @@ public class Program
     {
         total++;
         writer.FilePath = filePath;
-        writer.WriteLine($"Running file - {filePath}");
+        if (config.HideOutput)
+        {
+            Console.WriteLine($"Running file - {filePath}");
+        }
+        else
+        {
+            writer.WriteLine($"Running file - {filePath}");
+        }
+
         var file = File.OpenText(filePath);
 
         // Parse the CNF
@@ -48,8 +56,16 @@ public class Program
         if (RunInstance(instance, writer, config, out var solution)) solvedCount++;
             
         stopWatch.Stop();
-            
-        writer.WriteLine("Time taken: " + stopWatch.Elapsed.TotalMilliseconds + "ms");
+
+        if (config.HideOutput)
+        {
+            Console.WriteLine("Time taken: " + stopWatch.Elapsed.TotalMilliseconds + "ms");
+        }
+        else
+        {
+            writer.WriteLine("Time taken: " + stopWatch.Elapsed.TotalMilliseconds + "ms");
+        }
+
         metrics.Add(stopWatch.Elapsed.TotalMilliseconds);
         solutions.Add(solution);
 

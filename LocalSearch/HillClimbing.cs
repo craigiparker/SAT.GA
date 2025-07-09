@@ -22,6 +22,8 @@ public class HillClimbing : ILocalSearch<SatSolution>
             var flipIndex = _random.Next(individual.Assignment.Length);
             individual.Assignment[flipIndex] = !individual.Assignment[flipIndex];
 
+            if (individual.IsSolution) return;
+
             var newFitness = individual.SatisfiedClausesCount();
 
             // Revert if not improving
