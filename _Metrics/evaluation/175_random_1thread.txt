@@ -1,0 +1,206 @@
+
+C:\KCL\Code\SAT.GA\bin\Release\net8.0>SAT.GA C:\KCL\SAT_DIMACS\UF175.753.100 -tc 1 -g 20000 --hide True
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-01.cnf
+Time taken: 13299.2016ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-010.cnf
+Time taken: 5866.2748ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-0100.cnf
+Time taken: 2007.1094ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-011.cnf
+Time taken: 889.1231ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-012.cnf
+Time taken: 12864.7684ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-013.cnf
+Time taken: 3105.1472ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-014.cnf
+Time taken: 12956.6025ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-015.cnf
+Time taken: 10369.201ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-016.cnf
+Time taken: 1211.0846ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-017.cnf
+Time taken: 12408.8751ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-018.cnf
+Time taken: 8643.0943ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-019.cnf
+Time taken: 12771.1343ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-02.cnf
+Time taken: 13632.7295ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-020.cnf
+Time taken: 13151.4425ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-021.cnf
+Time taken: 12863.9649ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-022.cnf
+Time taken: 12606.9218ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-023.cnf
+Time taken: 12592.1337ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-024.cnf
+Time taken: 12878.0248ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-025.cnf
+Time taken: 664.7433ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-026.cnf
+Time taken: 12566.2234ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-027.cnf
+Time taken: 12802.9487ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-028.cnf
+Time taken: 1602.2495ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-029.cnf
+Time taken: 12652.1405ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-03.cnf
+Time taken: 12769.8707ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-030.cnf
+Time taken: 13360.8745ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-031.cnf
+Time taken: 12271.4757ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-032.cnf
+Time taken: 12502.2618ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-033.cnf
+Time taken: 12431.5153ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-034.cnf
+Time taken: 10134.667ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-035.cnf
+Time taken: 2765.5346ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-036.cnf
+Time taken: 13172.7523ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-037.cnf
+Time taken: 12778.0239ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-038.cnf
+Time taken: 9254.0132ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-039.cnf
+Time taken: 12212.1873ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-04.cnf
+Time taken: 12828.9667ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-040.cnf
+Time taken: 12820.5894ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-041.cnf
+Time taken: 6895.6297ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-042.cnf
+Time taken: 12535.542ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-043.cnf
+Time taken: 12284.1798ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-044.cnf
+Time taken: 12530.0616ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-045.cnf
+Time taken: 12477.2805ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-046.cnf
+Time taken: 12811.8549ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-047.cnf
+Time taken: 12590.1789ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-048.cnf
+Time taken: 5316.1452ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-049.cnf
+Time taken: 12653.2289ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-05.cnf
+Time taken: 12411.8865ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-050.cnf
+Time taken: 1475.7893ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-051.cnf
+Time taken: 11644.558ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-052.cnf
+Time taken: 9312.8309ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-053.cnf
+Time taken: 13021.3667ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-054.cnf
+Time taken: 12306.4277ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-055.cnf
+Time taken: 12622.6074ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-056.cnf
+Time taken: 2448.6654ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-057.cnf
+Time taken: 12371.039ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-058.cnf
+Time taken: 5159.1684ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-059.cnf
+Time taken: 12853.3028ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-06.cnf
+Time taken: 12347.3915ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-060.cnf
+Time taken: 831.4517ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-061.cnf
+Time taken: 1105.6556ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-062.cnf
+Time taken: 12968.3106ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-063.cnf
+Time taken: 3299.516ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-064.cnf
+Time taken: 7188.8948ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-065.cnf
+Time taken: 12165.0878ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-066.cnf
+Time taken: 13088.8434ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-067.cnf
+Time taken: 12349.7375ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-068.cnf
+Time taken: 12314.4845ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-069.cnf
+Time taken: 11864.9594ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-07.cnf
+Time taken: 12403.4982ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-070.cnf
+Time taken: 1883.8144ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-071.cnf
+Time taken: 7449.0109ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-072.cnf
+Time taken: 825.7085ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-073.cnf
+Time taken: 13144.6674ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-074.cnf
+Time taken: 12698.7228ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-075.cnf
+Time taken: 6573.2684ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-076.cnf
+Time taken: 12850.0526ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-077.cnf
+Time taken: 300.2335ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-078.cnf
+Time taken: 12615.0752ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-079.cnf
+Time taken: 8190.2815ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-08.cnf
+Time taken: 750.458ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-080.cnf
+Time taken: 12815.4616ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-081.cnf
+Time taken: 12916.3023ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-082.cnf
+Time taken: 5962.2762ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-083.cnf
+Time taken: 5845.1911ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-084.cnf
+Time taken: 12365.5186ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-085.cnf
+Time taken: 12539.424ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-086.cnf
+Time taken: 13333.8753ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-087.cnf
+Time taken: 605.2321ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-088.cnf
+Time taken: 12267.2906ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-089.cnf
+Time taken: 12253.2646ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-09.cnf
+Time taken: 12259.2839ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-090.cnf
+Time taken: 1404.4782ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-091.cnf
+Time taken: 12454.2487ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-092.cnf
+Time taken: 12734.012ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-093.cnf
+Time taken: 12622.3473ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-094.cnf
+Time taken: 12570.8858ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-095.cnf
+Time taken: 12905.2194ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-096.cnf
+Time taken: 5499.3108ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-097.cnf
+Time taken: 13148.3533ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-098.cnf
+Time taken: 13384.6988ms
+Running file - C:\KCL\SAT_DIMACS\UF175.753.100\uf175-099.cnf
+Time taken: 4069.0213ms
+Solved 37 of 100.
+Average Time: 9.726s. Average Generations: 15309.71. Average Restarts: 122.88.
+Min Time: 0.300s. Max Time: 13.633s. Min Generations: 440. Max Generations: 20000. Min Restarts: 3. Max Restarts: 175
+Press any key to exit.

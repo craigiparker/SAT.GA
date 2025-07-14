@@ -1,0 +1,2006 @@
+
+C:\KCL\Code\SAT.GA\bin\Release\net8.0>SAT.GA C:\KCL\SAT_DIMACS\uf20-91 -tc 8 -g 20000 --hide True
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-01.cnf
+Time taken: 41.6141ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-010.cnf
+Time taken: 2.6871ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0100.cnf
+Time taken: 2.3023ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-01000.cnf
+Time taken: 7.0054ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0101.cnf
+Time taken: 2.2107ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0102.cnf
+Time taken: 2.8832ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0103.cnf
+Time taken: 6.9093ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0104.cnf
+Time taken: 0.8715ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0105.cnf
+Time taken: 6.8545ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0106.cnf
+Time taken: 3.9561ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0107.cnf
+Time taken: 6.051ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0108.cnf
+Time taken: 2.7644ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0109.cnf
+Time taken: 6.8392ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-011.cnf
+Time taken: 2.0593ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0110.cnf
+Time taken: 2.0723ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0111.cnf
+Time taken: 4.5528ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0112.cnf
+Time taken: 2.321ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0113.cnf
+Time taken: 4.0875ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0114.cnf
+Time taken: 2.1032ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0115.cnf
+Time taken: 1.9161ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0116.cnf
+Time taken: 4.574ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0117.cnf
+Time taken: 5.7811ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0118.cnf
+Time taken: 2.6529ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0119.cnf
+Time taken: 6.939ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-012.cnf
+Time taken: 1.5745ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0120.cnf
+Time taken: 3.4711ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0121.cnf
+Time taken: 5.1898ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0122.cnf
+Time taken: 4.8019ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0123.cnf
+Time taken: 4.9263ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0124.cnf
+Time taken: 2.6982ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0125.cnf
+Time taken: 3.8653ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0126.cnf
+Time taken: 3.5717ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0127.cnf
+Time taken: 5.288ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0128.cnf
+Time taken: 4.1584ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0129.cnf
+Time taken: 6.0352ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-013.cnf
+Time taken: 3.8766ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0130.cnf
+Time taken: 5.302ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0131.cnf
+Time taken: 2.378ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0132.cnf
+Time taken: 10.5263ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0133.cnf
+Time taken: 5.4129ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0134.cnf
+Time taken: 2.4974ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0135.cnf
+Time taken: 5.4696ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0136.cnf
+Time taken: 4.9981ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0137.cnf
+Time taken: 3.6967ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0138.cnf
+Time taken: 5.0018ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0139.cnf
+Time taken: 7.5518ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-014.cnf
+Time taken: 3.9462ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0140.cnf
+Time taken: 8.8987ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0141.cnf
+Time taken: 8.4457ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0142.cnf
+Time taken: 3.396ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0143.cnf
+Time taken: 4.0167ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0144.cnf
+Time taken: 3.2099ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0145.cnf
+Time taken: 7.0754ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0146.cnf
+Time taken: 4.3797ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0147.cnf
+Time taken: 15.507ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0148.cnf
+Time taken: 2.8733ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0149.cnf
+Time taken: 6.1374ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-015.cnf
+Time taken: 4.6577ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0150.cnf
+Time taken: 4.5932ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0151.cnf
+Time taken: 7.9243ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0152.cnf
+Time taken: 6.0835ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0153.cnf
+Time taken: 3.5257ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0154.cnf
+Time taken: 9.2813ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0155.cnf
+Time taken: 3.3273ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0156.cnf
+Time taken: 6.9732ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0157.cnf
+Time taken: 5.3195ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0158.cnf
+Time taken: 5.0919ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0159.cnf
+Time taken: 16.8662ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-016.cnf
+Time taken: 4.6335ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0160.cnf
+Time taken: 3.0848ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0161.cnf
+Time taken: 3.7702ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0162.cnf
+Time taken: 1.888ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0163.cnf
+Time taken: 5.7945ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0164.cnf
+Time taken: 3.1276ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0165.cnf
+Time taken: 3.0909ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0166.cnf
+Time taken: 4.0326ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0167.cnf
+Time taken: 7.7482ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0168.cnf
+Time taken: 4.4831ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0169.cnf
+Time taken: 2.0449ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-017.cnf
+Time taken: 2.8421ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0170.cnf
+Time taken: 4.0102ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0171.cnf
+Time taken: 2.2078ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0172.cnf
+Time taken: 10.2946ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0173.cnf
+Time taken: 2.9557ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0174.cnf
+Time taken: 4.2135ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0175.cnf
+Time taken: 5.0823ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0176.cnf
+Time taken: 11.2962ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0177.cnf
+Time taken: 7.1545ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0178.cnf
+Time taken: 3.9467ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0179.cnf
+Time taken: 2.9242ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-018.cnf
+Time taken: 6.4639ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0180.cnf
+Time taken: 7.1727ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0181.cnf
+Time taken: 4.5584ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0182.cnf
+Time taken: 5.041ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0183.cnf
+Time taken: 5.8388ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0184.cnf
+Time taken: 3.5806ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0185.cnf
+Time taken: 5.9478ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0186.cnf
+Time taken: 3.3388ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0187.cnf
+Time taken: 1.869ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0188.cnf
+Time taken: 1.882ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0189.cnf
+Time taken: 6.0171ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-019.cnf
+Time taken: 4.0332ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0190.cnf
+Time taken: 2.7521ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0191.cnf
+Time taken: 6.5497ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0192.cnf
+Time taken: 6.7297ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0193.cnf
+Time taken: 8.5552ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0194.cnf
+Time taken: 3.7275ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0195.cnf
+Time taken: 1.7592ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0196.cnf
+Time taken: 3.2725ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0197.cnf
+Time taken: 5.5566ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0198.cnf
+Time taken: 2.2021ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0199.cnf
+Time taken: 3.2312ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-02.cnf
+Time taken: 2.0915ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-020.cnf
+Time taken: 3.3194ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0200.cnf
+Time taken: 4.4052ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0201.cnf
+Time taken: 6.5885ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0202.cnf
+Time taken: 5.909ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0203.cnf
+Time taken: 5.0388ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0204.cnf
+Time taken: 3.2705ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0205.cnf
+Time taken: 3.278ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0206.cnf
+Time taken: 2.2097ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0207.cnf
+Time taken: 3.2174ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0208.cnf
+Time taken: 2.1752ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0209.cnf
+Time taken: 7.5599ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-021.cnf
+Time taken: 3.2529ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0210.cnf
+Time taken: 2.1155ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0211.cnf
+Time taken: 3.2075ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0212.cnf
+Time taken: 3.4779ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0213.cnf
+Time taken: 4.1246ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0214.cnf
+Time taken: 4.4617ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0215.cnf
+Time taken: 0.9883ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0216.cnf
+Time taken: 13.3884ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0217.cnf
+Time taken: 3.4416ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0218.cnf
+Time taken: 1.9022ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0219.cnf
+Time taken: 7.0155ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-022.cnf
+Time taken: 2.5923ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0220.cnf
+Time taken: 2.1405ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0221.cnf
+Time taken: 6.2823ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0222.cnf
+Time taken: 7.0359ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0223.cnf
+Time taken: 5.5394ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0224.cnf
+Time taken: 6.1002ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0225.cnf
+Time taken: 3.3055ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0226.cnf
+Time taken: 2.1886ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0227.cnf
+Time taken: 2.1149ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0228.cnf
+Time taken: 6.8169ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0229.cnf
+Time taken: 2.0954ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-023.cnf
+Time taken: 3.2226ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0230.cnf
+Time taken: 5.4204ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0231.cnf
+Time taken: 7.388ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0232.cnf
+Time taken: 7.5195ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0233.cnf
+Time taken: 4.2918ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0234.cnf
+Time taken: 3.2852ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0235.cnf
+Time taken: 2.129ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0236.cnf
+Time taken: 5.647ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0237.cnf
+Time taken: 2.1283ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0238.cnf
+Time taken: 4.2712ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0239.cnf
+Time taken: 2.9496ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-024.cnf
+Time taken: 5.3446ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0240.cnf
+Time taken: 7.3311ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0241.cnf
+Time taken: 3.1582ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0242.cnf
+Time taken: 3.172ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0243.cnf
+Time taken: 2.2153ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0244.cnf
+Time taken: 3.2078ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0245.cnf
+Time taken: 5.8725ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0246.cnf
+Time taken: 1.4497ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0247.cnf
+Time taken: 4.625ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0248.cnf
+Time taken: 6.0607ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0249.cnf
+Time taken: 2.5152ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-025.cnf
+Time taken: 7.5078ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0250.cnf
+Time taken: 0.7684ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0251.cnf
+Time taken: 4.0303ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0252.cnf
+Time taken: 3.4209ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0253.cnf
+Time taken: 1.6975ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0254.cnf
+Time taken: 2.5943ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0255.cnf
+Time taken: 5.3479ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0256.cnf
+Time taken: 1.8069ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0257.cnf
+Time taken: 0.7534ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0258.cnf
+Time taken: 2.8594ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0259.cnf
+Time taken: 3.4338ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-026.cnf
+Time taken: 6.3564ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0260.cnf
+Time taken: 6.3905ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0261.cnf
+Time taken: 3.5159ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0262.cnf
+Time taken: 7.1956ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0263.cnf
+Time taken: 3.3017ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0264.cnf
+Time taken: 4.8868ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0265.cnf
+Time taken: 2.0311ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0266.cnf
+Time taken: 1.3671ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0267.cnf
+Time taken: 4.7533ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0268.cnf
+Time taken: 1.6794ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0269.cnf
+Time taken: 3.5765ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-027.cnf
+Time taken: 3.1338ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0270.cnf
+Time taken: 4.1605ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0271.cnf
+Time taken: 2.3832ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0272.cnf
+Time taken: 1.6208ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0273.cnf
+Time taken: 1.9031ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0274.cnf
+Time taken: 2.5396ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0275.cnf
+Time taken: 0.5886ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0276.cnf
+Time taken: 2.5294ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0277.cnf
+Time taken: 2.8721ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0278.cnf
+Time taken: 4.1781ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0279.cnf
+Time taken: 5.1124ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-028.cnf
+Time taken: 3.9831ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0280.cnf
+Time taken: 3.6901ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0281.cnf
+Time taken: 2.3845ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0282.cnf
+Time taken: 4.2227ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0283.cnf
+Time taken: 2.5409ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0284.cnf
+Time taken: 5.2756ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0285.cnf
+Time taken: 4.3154ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0286.cnf
+Time taken: 5.4053ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0287.cnf
+Time taken: 9.161ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0288.cnf
+Time taken: 4.5346ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0289.cnf
+Time taken: 2.1039ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-029.cnf
+Time taken: 5.0167ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0290.cnf
+Time taken: 2.4169ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0291.cnf
+Time taken: 3.6143ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0292.cnf
+Time taken: 2.162ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0293.cnf
+Time taken: 0.9709ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0294.cnf
+Time taken: 1.0495ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0295.cnf
+Time taken: 3.6281ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0296.cnf
+Time taken: 0.8563ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0297.cnf
+Time taken: 1.0292ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0298.cnf
+Time taken: 2.5003ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0299.cnf
+Time taken: 0.817ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-03.cnf
+Time taken: 1.4922ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-030.cnf
+Time taken: 0.7885ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0300.cnf
+Time taken: 0.7351ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0301.cnf
+Time taken: 2.4475ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0302.cnf
+Time taken: 0.5088ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0303.cnf
+Time taken: 0.9476ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0304.cnf
+Time taken: 0.614ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0305.cnf
+Time taken: 0.7627ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0306.cnf
+Time taken: 0.8714ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0307.cnf
+Time taken: 1.7105ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0308.cnf
+Time taken: 0.8825ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0309.cnf
+Time taken: 1.3633ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-031.cnf
+Time taken: 3.4166ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0310.cnf
+Time taken: 0.956ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0311.cnf
+Time taken: 0.8124ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0312.cnf
+Time taken: 2.9839ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0313.cnf
+Time taken: 1.0509ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0314.cnf
+Time taken: 1.1237ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0315.cnf
+Time taken: 1.0302ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0316.cnf
+Time taken: 7.7635ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0317.cnf
+Time taken: 1.0526ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0318.cnf
+Time taken: 0.8498ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0319.cnf
+Time taken: 3.0788ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-032.cnf
+Time taken: 2.3989ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0320.cnf
+Time taken: 0.9129ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0321.cnf
+Time taken: 2.9828ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0322.cnf
+Time taken: 0.7244ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0323.cnf
+Time taken: 0.9972ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0324.cnf
+Time taken: 0.6649ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0325.cnf
+Time taken: 4.872ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0326.cnf
+Time taken: 1.1288ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0327.cnf
+Time taken: 3.1841ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0328.cnf
+Time taken: 12.1945ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0329.cnf
+Time taken: 1.5134ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-033.cnf
+Time taken: 2.2006ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0330.cnf
+Time taken: 1.4834ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0331.cnf
+Time taken: 0.43ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0332.cnf
+Time taken: 0.6744ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0333.cnf
+Time taken: 0.9502ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0334.cnf
+Time taken: 2.1262ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0335.cnf
+Time taken: 0.748ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0336.cnf
+Time taken: 2.0728ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0337.cnf
+Time taken: 2.6909ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0338.cnf
+Time taken: 1.322ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0339.cnf
+Time taken: 1.1956ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-034.cnf
+Time taken: 0.7102ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0340.cnf
+Time taken: 0.7233ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0341.cnf
+Time taken: 0.4252ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0342.cnf
+Time taken: 0.7983ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0343.cnf
+Time taken: 1.1265ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0344.cnf
+Time taken: 4.3418ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0345.cnf
+Time taken: 0.8518ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0346.cnf
+Time taken: 0.9518ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0347.cnf
+Time taken: 2.1154ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0348.cnf
+Time taken: 1.355ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0349.cnf
+Time taken: 1.0326ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-035.cnf
+Time taken: 1.4181ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0350.cnf
+Time taken: 0.6679ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0351.cnf
+Time taken: 0.6912ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0352.cnf
+Time taken: 0.8499ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0353.cnf
+Time taken: 0.5102ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0354.cnf
+Time taken: 2.7179ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0355.cnf
+Time taken: 0.7601ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0356.cnf
+Time taken: 1.3112ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0357.cnf
+Time taken: 2.9781ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0358.cnf
+Time taken: 0.5818ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0359.cnf
+Time taken: 0.6812ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-036.cnf
+Time taken: 1.0626ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0360.cnf
+Time taken: 0.6967ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0361.cnf
+Time taken: 2.2329ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0362.cnf
+Time taken: 0.9529ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0363.cnf
+Time taken: 0.8483ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0364.cnf
+Time taken: 2.9578ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0365.cnf
+Time taken: 0.5151ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0366.cnf
+Time taken: 1.2634ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0367.cnf
+Time taken: 0.6855ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0368.cnf
+Time taken: 1.0818ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0369.cnf
+Time taken: 2.6053ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-037.cnf
+Time taken: 4.2761ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0370.cnf
+Time taken: 0.6718ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0371.cnf
+Time taken: 0.7156ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0372.cnf
+Time taken: 2.0002ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0373.cnf
+Time taken: 0.5134ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0374.cnf
+Time taken: 1.2812ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0375.cnf
+Time taken: 0.5644ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0376.cnf
+Time taken: 2.1842ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0377.cnf
+Time taken: 1.0305ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0378.cnf
+Time taken: 10.2362ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0379.cnf
+Time taken: 1.2486ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-038.cnf
+Time taken: 0.4541ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0380.cnf
+Time taken: 0.6332ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0381.cnf
+Time taken: 0.6764ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0382.cnf
+Time taken: 0.5797ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0383.cnf
+Time taken: 0.8843ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0384.cnf
+Time taken: 2.4862ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0385.cnf
+Time taken: 2.0571ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0386.cnf
+Time taken: 1.0577ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0387.cnf
+Time taken: 0.3498ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0388.cnf
+Time taken: 1.055ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0389.cnf
+Time taken: 2.5696ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-039.cnf
+Time taken: 0.5928ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0390.cnf
+Time taken: 1.2204ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0391.cnf
+Time taken: 0.4688ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0392.cnf
+Time taken: 0.9959ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0393.cnf
+Time taken: 0.9068ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0394.cnf
+Time taken: 0.5452ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0395.cnf
+Time taken: 0.2384ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0396.cnf
+Time taken: 2.7516ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0397.cnf
+Time taken: 1.0655ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0398.cnf
+Time taken: 1.223ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0399.cnf
+Time taken: 2.0851ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-04.cnf
+Time taken: 1.3087ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-040.cnf
+Time taken: 0.7738ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0400.cnf
+Time taken: 2.1976ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0401.cnf
+Time taken: 0.4378ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0402.cnf
+Time taken: 1.0854ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0403.cnf
+Time taken: 1.9125ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0404.cnf
+Time taken: 0.7948ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0405.cnf
+Time taken: 0.8038ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0406.cnf
+Time taken: 0.9217ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0407.cnf
+Time taken: 0.5836ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0408.cnf
+Time taken: 1.8464ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0409.cnf
+Time taken: 0.6941ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-041.cnf
+Time taken: 2.9465ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0410.cnf
+Time taken: 0.9091ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0411.cnf
+Time taken: 2.4729ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0412.cnf
+Time taken: 0.6917ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0413.cnf
+Time taken: 0.7019ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0414.cnf
+Time taken: 3.2244ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0415.cnf
+Time taken: 0.9127ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0416.cnf
+Time taken: 0.6177ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0417.cnf
+Time taken: 0.4642ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0418.cnf
+Time taken: 2.9542ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0419.cnf
+Time taken: 2.0858ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-042.cnf
+Time taken: 0.4781ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0420.cnf
+Time taken: 4.6765ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0421.cnf
+Time taken: 1.3924ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0422.cnf
+Time taken: 1.247ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0423.cnf
+Time taken: 2.5656ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0424.cnf
+Time taken: 1.6995ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0425.cnf
+Time taken: 1.0232ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0426.cnf
+Time taken: 3.1688ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0427.cnf
+Time taken: 0.9768ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0428.cnf
+Time taken: 1.4429ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0429.cnf
+Time taken: 0.2257ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-043.cnf
+Time taken: 4.4278ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0430.cnf
+Time taken: 0.8083ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0431.cnf
+Time taken: 0.8045ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0432.cnf
+Time taken: 3.2221ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0433.cnf
+Time taken: 0.7863ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0434.cnf
+Time taken: 1.0426ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0435.cnf
+Time taken: 3.6035ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0436.cnf
+Time taken: 0.7115ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0437.cnf
+Time taken: 1.2019ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0438.cnf
+Time taken: 0.9932ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0439.cnf
+Time taken: 0.5092ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-044.cnf
+Time taken: 3.245ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0440.cnf
+Time taken: 1.0198ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0441.cnf
+Time taken: 0.5072ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0442.cnf
+Time taken: 0.7183ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0443.cnf
+Time taken: 0.4962ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0444.cnf
+Time taken: 2.2588ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0445.cnf
+Time taken: 0.6951ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0446.cnf
+Time taken: 0.4937ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0447.cnf
+Time taken: 1.4415ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0448.cnf
+Time taken: 0.8142ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0449.cnf
+Time taken: 42.4623ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-045.cnf
+Time taken: 1.229ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0450.cnf
+Time taken: 0.7617ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0451.cnf
+Time taken: 0.5148ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0452.cnf
+Time taken: 2.3173ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0453.cnf
+Time taken: 0.6828ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0454.cnf
+Time taken: 1.6851ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0455.cnf
+Time taken: 3.1933ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0456.cnf
+Time taken: 3.1626ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0457.cnf
+Time taken: 1.2868ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0458.cnf
+Time taken: 4.3918ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0459.cnf
+Time taken: 1.1013ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-046.cnf
+Time taken: 1.2967ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0460.cnf
+Time taken: 1.034ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0461.cnf
+Time taken: 0.9626ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0462.cnf
+Time taken: 1.4826ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0463.cnf
+Time taken: 0.9617ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0464.cnf
+Time taken: 0.7684ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0465.cnf
+Time taken: 1.3441ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0466.cnf
+Time taken: 1.8306ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0467.cnf
+Time taken: 1.5035ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0468.cnf
+Time taken: 1.0699ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0469.cnf
+Time taken: 1.4443ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-047.cnf
+Time taken: 2.4505ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0470.cnf
+Time taken: 0.9163ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0471.cnf
+Time taken: 0.6837ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0472.cnf
+Time taken: 1.2163ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0473.cnf
+Time taken: 2.026ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0474.cnf
+Time taken: 0.707ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0475.cnf
+Time taken: 1.1058ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0476.cnf
+Time taken: 4.0186ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0477.cnf
+Time taken: 1.4351ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0478.cnf
+Time taken: 2.2273ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0479.cnf
+Time taken: 0.9984ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-048.cnf
+Time taken: 1.5478ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0480.cnf
+Time taken: 2.4942ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0481.cnf
+Time taken: 0.9645ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0482.cnf
+Time taken: 1.337ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0483.cnf
+Time taken: 0.7479ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0484.cnf
+Time taken: 2.5169ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0485.cnf
+Time taken: 0.5334ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0486.cnf
+Time taken: 0.9807ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0487.cnf
+Time taken: 0.7551ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0488.cnf
+Time taken: 4.0435ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0489.cnf
+Time taken: 0.8281ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-049.cnf
+Time taken: 1.2123ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0490.cnf
+Time taken: 2.6955ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0491.cnf
+Time taken: 1.0468ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0492.cnf
+Time taken: 0.9133ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0493.cnf
+Time taken: 3.0629ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0494.cnf
+Time taken: 1.3276ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0495.cnf
+Time taken: 2.6743ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0496.cnf
+Time taken: 0.8817ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0497.cnf
+Time taken: 0.7901ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0498.cnf
+Time taken: 1.3277ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0499.cnf
+Time taken: 1.6769ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-05.cnf
+Time taken: 0.8208ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-050.cnf
+Time taken: 1.7542ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0500.cnf
+Time taken: 0.845ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0501.cnf
+Time taken: 1.1852ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0502.cnf
+Time taken: 0.6993ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0503.cnf
+Time taken: 0.633ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0504.cnf
+Time taken: 1.7204ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0505.cnf
+Time taken: 0.5685ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0506.cnf
+Time taken: 0.7077ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0507.cnf
+Time taken: 0.6017ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0508.cnf
+Time taken: 1.5529ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0509.cnf
+Time taken: 0.9145ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-051.cnf
+Time taken: 1.0386ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0510.cnf
+Time taken: 1.1067ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0511.cnf
+Time taken: 0.8122ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0512.cnf
+Time taken: 0.6245ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0513.cnf
+Time taken: 0.8559ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0514.cnf
+Time taken: 4.8787ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0515.cnf
+Time taken: 0.7286ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0516.cnf
+Time taken: 0.6343ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0517.cnf
+Time taken: 1.5568ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0518.cnf
+Time taken: 1.442ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0519.cnf
+Time taken: 1.0042ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-052.cnf
+Time taken: 1.5446ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0520.cnf
+Time taken: 0.7399ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0521.cnf
+Time taken: 1.0647ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0522.cnf
+Time taken: 0.7051ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0523.cnf
+Time taken: 1.833ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0524.cnf
+Time taken: 0.6138ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0525.cnf
+Time taken: 0.5097ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0526.cnf
+Time taken: 0.6397ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0527.cnf
+Time taken: 0.6123ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0528.cnf
+Time taken: 3.1367ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0529.cnf
+Time taken: 1.5658ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-053.cnf
+Time taken: 14.0317ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0530.cnf
+Time taken: 0.9861ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0531.cnf
+Time taken: 0.9143ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0532.cnf
+Time taken: 3.1754ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0533.cnf
+Time taken: 1.3441ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0534.cnf
+Time taken: 2.2023ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0535.cnf
+Time taken: 0.5462ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0536.cnf
+Time taken: 0.8416ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0537.cnf
+Time taken: 0.5192ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0538.cnf
+Time taken: 0.3354ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0539.cnf
+Time taken: 2.0664ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-054.cnf
+Time taken: 0.6322ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0540.cnf
+Time taken: 0.6874ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0541.cnf
+Time taken: 1.1197ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0542.cnf
+Time taken: 3.9059ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0543.cnf
+Time taken: 3.6172ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0544.cnf
+Time taken: 0.413ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0545.cnf
+Time taken: 0.7597ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0546.cnf
+Time taken: 1.9389ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0547.cnf
+Time taken: 0.6111ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0548.cnf
+Time taken: 1.0378ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0549.cnf
+Time taken: 0.6567ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-055.cnf
+Time taken: 0.4776ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0550.cnf
+Time taken: 2.4408ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0551.cnf
+Time taken: 1.3585ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0552.cnf
+Time taken: 2.7794ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0553.cnf
+Time taken: 0.6221ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0554.cnf
+Time taken: 0.469ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0555.cnf
+Time taken: 0.6958ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0556.cnf
+Time taken: 2.2132ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0557.cnf
+Time taken: 1.2971ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0558.cnf
+Time taken: 0.672ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0559.cnf
+Time taken: 2.0351ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-056.cnf
+Time taken: 1.1079ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0560.cnf
+Time taken: 1.1023ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0561.cnf
+Time taken: 0.6735ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0562.cnf
+Time taken: 2.9591ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0563.cnf
+Time taken: 0.3775ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0564.cnf
+Time taken: 0.991ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0565.cnf
+Time taken: 0.6331ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0566.cnf
+Time taken: 2.2687ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0567.cnf
+Time taken: 0.5041ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0568.cnf
+Time taken: 1.0291ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0569.cnf
+Time taken: 0.9383ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-057.cnf
+Time taken: 4.0024ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0570.cnf
+Time taken: 0.6915ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0571.cnf
+Time taken: 1.1253ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0572.cnf
+Time taken: 1.2099ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0573.cnf
+Time taken: 3.1973ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0574.cnf
+Time taken: 1.4204ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0575.cnf
+Time taken: 0.7917ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0576.cnf
+Time taken: 2.1802ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0577.cnf
+Time taken: 0.721ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0578.cnf
+Time taken: 0.8454ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0579.cnf
+Time taken: 1.573ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-058.cnf
+Time taken: 0.396ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0580.cnf
+Time taken: 0.2682ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0581.cnf
+Time taken: 0.8119ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0582.cnf
+Time taken: 4.1256ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0583.cnf
+Time taken: 0.8499ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0584.cnf
+Time taken: 0.7099ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0585.cnf
+Time taken: 1.3689ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0586.cnf
+Time taken: 1.2832ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0587.cnf
+Time taken: 1.0117ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0588.cnf
+Time taken: 0.5567ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0589.cnf
+Time taken: 1.7185ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-059.cnf
+Time taken: 1.1504ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0590.cnf
+Time taken: 0.4457ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0591.cnf
+Time taken: 0.9489ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0592.cnf
+Time taken: 0.6591ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0593.cnf
+Time taken: 1.0173ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0594.cnf
+Time taken: 2.8422ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0595.cnf
+Time taken: 0.9719ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0596.cnf
+Time taken: 0.8123ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0597.cnf
+Time taken: 0.8238ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0598.cnf
+Time taken: 1.2611ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0599.cnf
+Time taken: 1.1598ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-06.cnf
+Time taken: 2.6347ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-060.cnf
+Time taken: 1.162ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0600.cnf
+Time taken: 2.1536ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0601.cnf
+Time taken: 1.0106ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0602.cnf
+Time taken: 0.6236ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0603.cnf
+Time taken: 2.6326ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0604.cnf
+Time taken: 0.2813ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0605.cnf
+Time taken: 0.5754ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0606.cnf
+Time taken: 3.5936ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0607.cnf
+Time taken: 1.0987ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0608.cnf
+Time taken: 1.3265ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0609.cnf
+Time taken: 0.6631ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-061.cnf
+Time taken: 0.9086ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0610.cnf
+Time taken: 0.9946ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0611.cnf
+Time taken: 0.8246ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0612.cnf
+Time taken: 1.3724ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0613.cnf
+Time taken: 0.9014ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0614.cnf
+Time taken: 2.076ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0615.cnf
+Time taken: 0.6825ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0616.cnf
+Time taken: 2.1037ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0617.cnf
+Time taken: 0.6301ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0618.cnf
+Time taken: 1.122ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0619.cnf
+Time taken: 0.6003ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-062.cnf
+Time taken: 0.2522ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0620.cnf
+Time taken: 1.3495ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0621.cnf
+Time taken: 0.8127ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0622.cnf
+Time taken: 0.6655ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0623.cnf
+Time taken: 0.652ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0624.cnf
+Time taken: 1.7537ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0625.cnf
+Time taken: 1.1322ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0626.cnf
+Time taken: 0.9142ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0627.cnf
+Time taken: 0.3728ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0628.cnf
+Time taken: 2.4367ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0629.cnf
+Time taken: 0.6511ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-063.cnf
+Time taken: 0.6455ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0630.cnf
+Time taken: 4.7835ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0631.cnf
+Time taken: 0.9058ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0632.cnf
+Time taken: 0.8234ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0633.cnf
+Time taken: 0.4507ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0634.cnf
+Time taken: 0.6322ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0635.cnf
+Time taken: 0.5786ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0636.cnf
+Time taken: 0.9494ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0637.cnf
+Time taken: 1.9582ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0638.cnf
+Time taken: 0.5145ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0639.cnf
+Time taken: 1.6392ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-064.cnf
+Time taken: 2.3879ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0640.cnf
+Time taken: 0.5236ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0641.cnf
+Time taken: 0.8159ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0642.cnf
+Time taken: 0.6367ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0643.cnf
+Time taken: 0.8377ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0644.cnf
+Time taken: 0.5827ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0645.cnf
+Time taken: 0.8891ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0646.cnf
+Time taken: 0.7646ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0647.cnf
+Time taken: 0.8606ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0648.cnf
+Time taken: 1.1667ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0649.cnf
+Time taken: 0.7961ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-065.cnf
+Time taken: 1.0531ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0650.cnf
+Time taken: 0.2821ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0651.cnf
+Time taken: 1.8387ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0652.cnf
+Time taken: 0.7241ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0653.cnf
+Time taken: 0.5908ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0654.cnf
+Time taken: 0.697ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0655.cnf
+Time taken: 0.6303ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0656.cnf
+Time taken: 1.9527ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0657.cnf
+Time taken: 0.608ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0658.cnf
+Time taken: 1.0052ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0659.cnf
+Time taken: 0.566ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-066.cnf
+Time taken: 0.444ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0660.cnf
+Time taken: 0.8085ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0661.cnf
+Time taken: 1.0915ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0662.cnf
+Time taken: 0.3935ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0663.cnf
+Time taken: 0.7613ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0664.cnf
+Time taken: 0.7526ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0665.cnf
+Time taken: 0.4866ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0666.cnf
+Time taken: 0.844ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0667.cnf
+Time taken: 0.6698ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0668.cnf
+Time taken: 0.7965ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0669.cnf
+Time taken: 1.0123ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-067.cnf
+Time taken: 0.6673ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0670.cnf
+Time taken: 0.855ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0671.cnf
+Time taken: 1.7668ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0672.cnf
+Time taken: 0.7153ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0673.cnf
+Time taken: 0.5926ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0674.cnf
+Time taken: 1.5894ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0675.cnf
+Time taken: 0.8396ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0676.cnf
+Time taken: 0.5155ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0677.cnf
+Time taken: 0.7538ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0678.cnf
+Time taken: 0.8396ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0679.cnf
+Time taken: 0.5197ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-068.cnf
+Time taken: 0.7261ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0680.cnf
+Time taken: 1.1028ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0681.cnf
+Time taken: 0.508ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0682.cnf
+Time taken: 0.9945ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0683.cnf
+Time taken: 1.2008ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0684.cnf
+Time taken: 2.5929ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0685.cnf
+Time taken: 0.9542ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0686.cnf
+Time taken: 2.5312ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0687.cnf
+Time taken: 1.0447ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0688.cnf
+Time taken: 2.6757ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0689.cnf
+Time taken: 0.6185ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-069.cnf
+Time taken: 1.2472ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0690.cnf
+Time taken: 0.7643ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0691.cnf
+Time taken: 3.0452ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0692.cnf
+Time taken: 0.9391ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0693.cnf
+Time taken: 2.0964ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0694.cnf
+Time taken: 0.9488ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0695.cnf
+Time taken: 0.8927ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0696.cnf
+Time taken: 2.1707ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0697.cnf
+Time taken: 0.7773ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0698.cnf
+Time taken: 0.9751ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0699.cnf
+Time taken: 0.4286ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-07.cnf
+Time taken: 0.6116ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-070.cnf
+Time taken: 0.7069ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0700.cnf
+Time taken: 1.0721ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0701.cnf
+Time taken: 1.4519ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0702.cnf
+Time taken: 0.2725ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0703.cnf
+Time taken: 0.9195ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0704.cnf
+Time taken: 1.2742ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0705.cnf
+Time taken: 3.5003ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0706.cnf
+Time taken: 0.3906ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0707.cnf
+Time taken: 0.9344ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0708.cnf
+Time taken: 2.3306ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0709.cnf
+Time taken: 0.9025ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-071.cnf
+Time taken: 0.475ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0710.cnf
+Time taken: 0.8699ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0711.cnf
+Time taken: 0.7185ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0712.cnf
+Time taken: 1.3168ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0713.cnf
+Time taken: 0.5118ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0714.cnf
+Time taken: 0.4756ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0715.cnf
+Time taken: 2.2252ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0716.cnf
+Time taken: 1.4943ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0717.cnf
+Time taken: 2.806ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0718.cnf
+Time taken: 0.7056ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0719.cnf
+Time taken: 0.8169ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-072.cnf
+Time taken: 0.6546ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0720.cnf
+Time taken: 0.99ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0721.cnf
+Time taken: 0.8595ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0722.cnf
+Time taken: 0.3021ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0723.cnf
+Time taken: 1.9101ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0724.cnf
+Time taken: 0.4326ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0725.cnf
+Time taken: 0.9632ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0726.cnf
+Time taken: 0.4288ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0727.cnf
+Time taken: 0.7446ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0728.cnf
+Time taken: 2.5301ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0729.cnf
+Time taken: 0.7836ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-073.cnf
+Time taken: 0.8978ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0730.cnf
+Time taken: 0.7975ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0731.cnf
+Time taken: 1.1748ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0732.cnf
+Time taken: 0.4509ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0733.cnf
+Time taken: 2.3971ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0734.cnf
+Time taken: 0.7598ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0735.cnf
+Time taken: 1.0724ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0736.cnf
+Time taken: 1.2276ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0737.cnf
+Time taken: 2.229ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0738.cnf
+Time taken: 0.7291ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0739.cnf
+Time taken: 0.3962ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-074.cnf
+Time taken: 1.1969ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0740.cnf
+Time taken: 2.2452ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0741.cnf
+Time taken: 0.7643ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0742.cnf
+Time taken: 1.0048ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0743.cnf
+Time taken: 2.2966ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0744.cnf
+Time taken: 1.2859ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0745.cnf
+Time taken: 0.702ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0746.cnf
+Time taken: 2.1563ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0747.cnf
+Time taken: 0.6464ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0748.cnf
+Time taken: 0.5913ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0749.cnf
+Time taken: 0.5494ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-075.cnf
+Time taken: 0.7851ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0750.cnf
+Time taken: 1.9792ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0751.cnf
+Time taken: 0.6949ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0752.cnf
+Time taken: 0.3869ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0753.cnf
+Time taken: 1.1732ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0754.cnf
+Time taken: 2.447ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0755.cnf
+Time taken: 1.0496ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0756.cnf
+Time taken: 0.8827ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0757.cnf
+Time taken: 2.4394ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0758.cnf
+Time taken: 0.6477ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0759.cnf
+Time taken: 0.7269ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-076.cnf
+Time taken: 2.9275ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0760.cnf
+Time taken: 0.7107ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0761.cnf
+Time taken: 0.8564ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0762.cnf
+Time taken: 1.4873ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0763.cnf
+Time taken: 2.2544ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0764.cnf
+Time taken: 1.3106ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0765.cnf
+Time taken: 2.2235ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0766.cnf
+Time taken: 0.7743ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0767.cnf
+Time taken: 0.4349ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0768.cnf
+Time taken: 0.4241ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0769.cnf
+Time taken: 2.3642ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-077.cnf
+Time taken: 0.9169ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0770.cnf
+Time taken: 0.6807ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0771.cnf
+Time taken: 5.7152ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0772.cnf
+Time taken: 1.8176ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0773.cnf
+Time taken: 2.0089ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0774.cnf
+Time taken: 0.724ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0775.cnf
+Time taken: 2.7377ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0776.cnf
+Time taken: 0.9409ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0777.cnf
+Time taken: 3.8035ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0778.cnf
+Time taken: 0.7209ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0779.cnf
+Time taken: 1.9386ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-078.cnf
+Time taken: 0.6755ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0780.cnf
+Time taken: 0.5997ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0781.cnf
+Time taken: 0.9233ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0782.cnf
+Time taken: 3.1725ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0783.cnf
+Time taken: 1.5238ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0784.cnf
+Time taken: 1.9383ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0785.cnf
+Time taken: 0.7733ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0786.cnf
+Time taken: 0.6683ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0787.cnf
+Time taken: 0.5377ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0788.cnf
+Time taken: 1.9918ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0789.cnf
+Time taken: 1.7039ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-079.cnf
+Time taken: 0.2926ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0790.cnf
+Time taken: 0.7996ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0791.cnf
+Time taken: 3.1743ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0792.cnf
+Time taken: 0.5388ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0793.cnf
+Time taken: 1.5031ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0794.cnf
+Time taken: 2.4273ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0795.cnf
+Time taken: 1.1263ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0796.cnf
+Time taken: 1.1276ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0797.cnf
+Time taken: 0.8188ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0798.cnf
+Time taken: 0.7896ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0799.cnf
+Time taken: 1.603ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-08.cnf
+Time taken: 3.2128ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-080.cnf
+Time taken: 0.4045ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0800.cnf
+Time taken: 1.4005ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0801.cnf
+Time taken: 1.0963ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0802.cnf
+Time taken: 2.407ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0803.cnf
+Time taken: 0.8824ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0804.cnf
+Time taken: 0.4634ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0805.cnf
+Time taken: 1.1562ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0806.cnf
+Time taken: 3.0658ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0807.cnf
+Time taken: 1.0839ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0808.cnf
+Time taken: 1.3457ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0809.cnf
+Time taken: 0.6733ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-081.cnf
+Time taken: 2.6614ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0810.cnf
+Time taken: 0.6709ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0811.cnf
+Time taken: 0.9149ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0812.cnf
+Time taken: 3.6642ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0813.cnf
+Time taken: 0.5576ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0814.cnf
+Time taken: 0.8023ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0815.cnf
+Time taken: 2.7281ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0816.cnf
+Time taken: 0.8628ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0817.cnf
+Time taken: 0.9848ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0818.cnf
+Time taken: 2.7044ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0819.cnf
+Time taken: 0.4987ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-082.cnf
+Time taken: 0.842ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0820.cnf
+Time taken: 0.4364ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0821.cnf
+Time taken: 1.0092ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0822.cnf
+Time taken: 0.9582ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0823.cnf
+Time taken: 0.8675ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0824.cnf
+Time taken: 0.7551ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0825.cnf
+Time taken: 0.869ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0826.cnf
+Time taken: 3.4606ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0827.cnf
+Time taken: 1.4576ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0828.cnf
+Time taken: 0.9487ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0829.cnf
+Time taken: 1.343ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-083.cnf
+Time taken: 0.5348ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0830.cnf
+Time taken: 1.5973ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0831.cnf
+Time taken: 1.9678ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0832.cnf
+Time taken: 0.7518ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0833.cnf
+Time taken: 1.3514ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0834.cnf
+Time taken: 2.0068ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0835.cnf
+Time taken: 0.7926ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0836.cnf
+Time taken: 0.5496ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0837.cnf
+Time taken: 0.8756ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0838.cnf
+Time taken: 0.3265ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0839.cnf
+Time taken: 4.1995ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-084.cnf
+Time taken: 0.5841ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0840.cnf
+Time taken: 1.4511ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0841.cnf
+Time taken: 3.6091ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0842.cnf
+Time taken: 0.6924ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0843.cnf
+Time taken: 0.6028ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0844.cnf
+Time taken: 3.1582ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0845.cnf
+Time taken: 1.0514ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0846.cnf
+Time taken: 0.7316ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0847.cnf
+Time taken: 0.8253ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0848.cnf
+Time taken: 2.9598ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0849.cnf
+Time taken: 3.0035ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-085.cnf
+Time taken: 1.3842ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0850.cnf
+Time taken: 0.9356ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0851.cnf
+Time taken: 0.8571ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0852.cnf
+Time taken: 1.4167ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0853.cnf
+Time taken: 1.4376ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0854.cnf
+Time taken: 1.227ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0855.cnf
+Time taken: 2.9599ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0856.cnf
+Time taken: 0.3079ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0857.cnf
+Time taken: 1.0316ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0858.cnf
+Time taken: 1.1809ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0859.cnf
+Time taken: 2.5472ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-086.cnf
+Time taken: 1.0064ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0860.cnf
+Time taken: 0.9688ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0861.cnf
+Time taken: 2.6092ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0862.cnf
+Time taken: 1.0183ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0863.cnf
+Time taken: 0.7681ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0864.cnf
+Time taken: 1.2074ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0865.cnf
+Time taken: 3.3177ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0866.cnf
+Time taken: 0.7014ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0867.cnf
+Time taken: 0.8196ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0868.cnf
+Time taken: 1.9662ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0869.cnf
+Time taken: 1.4524ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-087.cnf
+Time taken: 1.1075ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0870.cnf
+Time taken: 0.7828ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0871.cnf
+Time taken: 2.1414ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0872.cnf
+Time taken: 0.9466ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0873.cnf
+Time taken: 0.8175ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0874.cnf
+Time taken: 0.6259ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0875.cnf
+Time taken: 0.7497ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0876.cnf
+Time taken: 0.7924ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0877.cnf
+Time taken: 0.8932ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0878.cnf
+Time taken: 0.7142ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0879.cnf
+Time taken: 1.573ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-088.cnf
+Time taken: 0.7765ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0880.cnf
+Time taken: 0.9872ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0881.cnf
+Time taken: 1.2688ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0882.cnf
+Time taken: 2.8583ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0883.cnf
+Time taken: 1.1323ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0884.cnf
+Time taken: 0.9685ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0885.cnf
+Time taken: 2.0606ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0886.cnf
+Time taken: 1.9352ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0887.cnf
+Time taken: 2.8056ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0888.cnf
+Time taken: 0.4869ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0889.cnf
+Time taken: 0.6415ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-089.cnf
+Time taken: 0.8044ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0890.cnf
+Time taken: 1.4049ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0891.cnf
+Time taken: 4.2947ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0892.cnf
+Time taken: 1.9708ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0893.cnf
+Time taken: 1.3751ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0894.cnf
+Time taken: 0.8118ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0895.cnf
+Time taken: 0.7565ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0896.cnf
+Time taken: 3.2644ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0897.cnf
+Time taken: 1.1291ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0898.cnf
+Time taken: 0.8469ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0899.cnf
+Time taken: 0.7448ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-09.cnf
+Time taken: 15.2457ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-090.cnf
+Time taken: 0.7309ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0900.cnf
+Time taken: 0.6735ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0901.cnf
+Time taken: 0.7199ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0902.cnf
+Time taken: 2.5228ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0903.cnf
+Time taken: 1.5071ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0904.cnf
+Time taken: 0.725ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0905.cnf
+Time taken: 1.2928ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0906.cnf
+Time taken: 2.1083ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0907.cnf
+Time taken: 1.0447ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0908.cnf
+Time taken: 0.9839ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0909.cnf
+Time taken: 11.8726ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-091.cnf
+Time taken: 6.3314ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0910.cnf
+Time taken: 0.6501ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0911.cnf
+Time taken: 0.6851ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0912.cnf
+Time taken: 1.1593ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0913.cnf
+Time taken: 0.5651ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0914.cnf
+Time taken: 1.6971ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0915.cnf
+Time taken: 0.8919ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0916.cnf
+Time taken: 0.765ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0917.cnf
+Time taken: 0.2733ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0918.cnf
+Time taken: 1.0585ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0919.cnf
+Time taken: 2.6749ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-092.cnf
+Time taken: 0.82ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0920.cnf
+Time taken: 0.639ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0921.cnf
+Time taken: 2.2142ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0922.cnf
+Time taken: 0.9978ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0923.cnf
+Time taken: 0.5658ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0924.cnf
+Time taken: 2.5683ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0925.cnf
+Time taken: 0.59ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0926.cnf
+Time taken: 0.7191ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0927.cnf
+Time taken: 1.2315ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0928.cnf
+Time taken: 2.2652ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0929.cnf
+Time taken: 0.8201ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-093.cnf
+Time taken: 0.655ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0930.cnf
+Time taken: 0.8144ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0931.cnf
+Time taken: 1.1466ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0932.cnf
+Time taken: 0.4968ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0933.cnf
+Time taken: 2.5332ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0934.cnf
+Time taken: 0.8475ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0935.cnf
+Time taken: 0.6121ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0936.cnf
+Time taken: 0.8501ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0937.cnf
+Time taken: 2.2579ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0938.cnf
+Time taken: 0.9034ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0939.cnf
+Time taken: 0.9027ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-094.cnf
+Time taken: 1.8322ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0940.cnf
+Time taken: 1.1712ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0941.cnf
+Time taken: 0.6271ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0942.cnf
+Time taken: 0.8145ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0943.cnf
+Time taken: 2.7665ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0944.cnf
+Time taken: 2.469ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0945.cnf
+Time taken: 0.9936ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0946.cnf
+Time taken: 0.5106ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0947.cnf
+Time taken: 0.8616ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0948.cnf
+Time taken: 2.68ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0949.cnf
+Time taken: 0.4678ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-095.cnf
+Time taken: 1.4587ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0950.cnf
+Time taken: 0.9775ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0951.cnf
+Time taken: 1.7667ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0952.cnf
+Time taken: 1.2122ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0953.cnf
+Time taken: 0.5073ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0954.cnf
+Time taken: 3.2805ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0955.cnf
+Time taken: 0.5976ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0956.cnf
+Time taken: 1.5143ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0957.cnf
+Time taken: 1.8263ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0958.cnf
+Time taken: 0.9062ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0959.cnf
+Time taken: 0.9069ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-096.cnf
+Time taken: 0.9997ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0960.cnf
+Time taken: 2.445ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0961.cnf
+Time taken: 0.5077ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0962.cnf
+Time taken: 4.1148ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0963.cnf
+Time taken: 0.9544ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0964.cnf
+Time taken: 1.7601ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0965.cnf
+Time taken: 0.3983ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0966.cnf
+Time taken: 1.2233ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0967.cnf
+Time taken: 0.8038ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0968.cnf
+Time taken: 2.6064ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0969.cnf
+Time taken: 0.9153ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-097.cnf
+Time taken: 0.9694ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0970.cnf
+Time taken: 0.6773ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0971.cnf
+Time taken: 7.5489ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0972.cnf
+Time taken: 0.8383ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0973.cnf
+Time taken: 0.6688ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0974.cnf
+Time taken: 1.1993ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0975.cnf
+Time taken: 2.305ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0976.cnf
+Time taken: 1.1814ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0977.cnf
+Time taken: 0.8657ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0978.cnf
+Time taken: 0.739ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0979.cnf
+Time taken: 3.2061ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-098.cnf
+Time taken: 1.0118ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0980.cnf
+Time taken: 2.3782ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0981.cnf
+Time taken: 0.9571ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0982.cnf
+Time taken: 1.4461ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0983.cnf
+Time taken: 0.7549ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0984.cnf
+Time taken: 0.6246ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0985.cnf
+Time taken: 3.2174ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0986.cnf
+Time taken: 0.3922ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0987.cnf
+Time taken: 1.4868ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0988.cnf
+Time taken: 0.4461ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0989.cnf
+Time taken: 2.5393ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-099.cnf
+Time taken: 0.8826ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0990.cnf
+Time taken: 0.7688ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0991.cnf
+Time taken: 0.3998ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0992.cnf
+Time taken: 0.8904ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0993.cnf
+Time taken: 1.9422ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0994.cnf
+Time taken: 0.9117ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0995.cnf
+Time taken: 0.4236ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0996.cnf
+Time taken: 0.5883ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0997.cnf
+Time taken: 2.1297ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0998.cnf
+Time taken: 0.5295ms
+Running file - C:\KCL\SAT_DIMACS\uf20-91\uf20-0999.cnf
+Time taken: 0.6884ms
+Solved 1000 of 1000.
+Average Time: 0.002s. Average Generations: 3.46. Average Restarts: 0.01.
+Min Time: 0.000s. Max Time: 0.042s. Min Generations: 0. Max Generations: 157. Min Restarts: 0. Max Restarts: 5
+Press any key to exit.

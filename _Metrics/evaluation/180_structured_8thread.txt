@@ -1,0 +1,2004 @@
+
+C:\KCL\Code\SAT.GA\bin\Release\net8.0>SAT.GA C:\KCL\SAT_DIMACS\flat50-115 -tc 8 -g 20000 --hide True
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-1.cnf
+Time taken: 1228.484ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-10.cnf
+Time taken: 145.1943ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-100.cnf
+Time taken: 3366.2262ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-1000.cnf
+Time taken: 1054.3244ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-101.cnf
+Time taken: 138.5902ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-102.cnf
+Time taken: 169.5815ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-103.cnf
+Time taken: 2663.3438ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-104.cnf
+Time taken: 1828.0941ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-105.cnf
+Time taken: 175.6854ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-106.cnf
+Time taken: 197.2559ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-107.cnf
+Time taken: 273.289ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-108.cnf
+Time taken: 213.6131ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-109.cnf
+Time taken: 361.1706ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-11.cnf
+Time taken: 535.0613ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-110.cnf
+Time taken: 124.5288ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-111.cnf
+Time taken: 76.4359ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-112.cnf
+Time taken: 517.5257ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-113.cnf
+Time taken: 670.7601ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-114.cnf
+Time taken: 259.8752ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-115.cnf
+Time taken: 231.3867ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-116.cnf
+Time taken: 212.4934ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-117.cnf
+Time taken: 1465.0577ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-118.cnf
+Time taken: 189.3203ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-119.cnf
+Time taken: 549.5267ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-12.cnf
+Time taken: 1652.4346ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-120.cnf
+Time taken: 1035.887ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-121.cnf
+Time taken: 68.7118ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-122.cnf
+Time taken: 314.7932ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-123.cnf
+Time taken: 391.2385ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-124.cnf
+Time taken: 457.9243ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-125.cnf
+Time taken: 373.729ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-126.cnf
+Time taken: 247.842ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-127.cnf
+Time taken: 266.0238ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-128.cnf
+Time taken: 492.5502ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-129.cnf
+Time taken: 1045.1241ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-13.cnf
+Time taken: 258.4543ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-130.cnf
+Time taken: 1506.9913ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-131.cnf
+Time taken: 604.7372ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-132.cnf
+Time taken: 469.5711ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-133.cnf
+Time taken: 1879.2458ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-134.cnf
+Time taken: 103.6641ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-135.cnf
+Time taken: 707.5589ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-136.cnf
+Time taken: 398.233ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-137.cnf
+Time taken: 167.1104ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-138.cnf
+Time taken: 1893.3775ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-139.cnf
+Time taken: 319.1116ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-14.cnf
+Time taken: 84.6382ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-140.cnf
+Time taken: 1492.6316ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-141.cnf
+Time taken: 115.7135ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-142.cnf
+Time taken: 69.1811ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-143.cnf
+Time taken: 1077.6234ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-144.cnf
+Time taken: 2929.0671ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-145.cnf
+Time taken: 1393.704ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-146.cnf
+Time taken: 661.5449ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-147.cnf
+Time taken: 81.0202ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-148.cnf
+Time taken: 258.3844ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-149.cnf
+Time taken: 341.1871ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-15.cnf
+Time taken: 2057.669ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-150.cnf
+Time taken: 1344.1768ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-151.cnf
+Time taken: 203.531ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-152.cnf
+Time taken: 811.3659ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-153.cnf
+Time taken: 200.6212ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-154.cnf
+Time taken: 113.9747ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-155.cnf
+Time taken: 123.857ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-156.cnf
+Time taken: 529.7888ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-157.cnf
+Time taken: 167.9434ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-158.cnf
+Time taken: 530.0998ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-159.cnf
+Time taken: 128.0893ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-16.cnf
+Time taken: 1269.6157ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-160.cnf
+Time taken: 176.0718ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-161.cnf
+Time taken: 655.2214ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-162.cnf
+Time taken: 8629.4201ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-163.cnf
+Time taken: 6661.4314ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-164.cnf
+Time taken: 758.9926ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-165.cnf
+Time taken: 118.2728ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-166.cnf
+Time taken: 1501.433ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-167.cnf
+Time taken: 746.9278ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-168.cnf
+Time taken: 1150.0797ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-169.cnf
+Time taken: 809.2032ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-17.cnf
+Time taken: 477.3212ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-170.cnf
+Time taken: 117.4049ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-171.cnf
+Time taken: 417.59ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-172.cnf
+Time taken: 3123.9347ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-173.cnf
+Time taken: 230.9948ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-174.cnf
+Time taken: 57.6925ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-175.cnf
+Time taken: 186.7113ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-176.cnf
+Time taken: 126.0724ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-177.cnf
+Time taken: 148.04ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-178.cnf
+Time taken: 130.0555ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-179.cnf
+Time taken: 296.9847ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-18.cnf
+Time taken: 237.375ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-180.cnf
+Time taken: 761.0202ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-181.cnf
+Time taken: 1380.2703ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-182.cnf
+Time taken: 589.1441ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-183.cnf
+Time taken: 294.1616ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-184.cnf
+Time taken: 118.7551ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-185.cnf
+Time taken: 435.0673ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-186.cnf
+Time taken: 374.0126ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-187.cnf
+Time taken: 137.5254ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-188.cnf
+Time taken: 216.5528ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-189.cnf
+Time taken: 463.0574ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-19.cnf
+Time taken: 135.3078ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-190.cnf
+Time taken: 109.4649ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-191.cnf
+Time taken: 675.2398ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-192.cnf
+Time taken: 621.7847ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-193.cnf
+Time taken: 232.6568ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-194.cnf
+Time taken: 256.1383ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-195.cnf
+Time taken: 84.1632ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-196.cnf
+Time taken: 116.9227ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-197.cnf
+Time taken: 366.2321ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-198.cnf
+Time taken: 233.3924ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-199.cnf
+Time taken: 561.2857ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-2.cnf
+Time taken: 85.6976ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-20.cnf
+Time taken: 3241.1046ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-200.cnf
+Time taken: 129.7942ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-201.cnf
+Time taken: 191.1239ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-202.cnf
+Time taken: 68.283ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-203.cnf
+Time taken: 517.1076ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-204.cnf
+Time taken: 226.7ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-205.cnf
+Time taken: 309.9114ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-206.cnf
+Time taken: 507.9075ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-207.cnf
+Time taken: 223.7048ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-208.cnf
+Time taken: 104.3032ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-209.cnf
+Time taken: 200.8687ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-21.cnf
+Time taken: 193.9857ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-210.cnf
+Time taken: 302.3725ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-211.cnf
+Time taken: 121.8667ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-212.cnf
+Time taken: 815.5588ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-213.cnf
+Time taken: 369.16ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-214.cnf
+Time taken: 155.1442ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-215.cnf
+Time taken: 132.5707ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-216.cnf
+Time taken: 401.8651ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-217.cnf
+Time taken: 398.6171ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-218.cnf
+Time taken: 2443.9839ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-219.cnf
+Time taken: 110.0591ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-22.cnf
+Time taken: 84.3468ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-220.cnf
+Time taken: 1551.5151ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-221.cnf
+Time taken: 425.2782ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-222.cnf
+Time taken: 2364.7116ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-223.cnf
+Time taken: 190.5775ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-224.cnf
+Time taken: 244.3563ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-225.cnf
+Time taken: 116.9977ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-226.cnf
+Time taken: 534.5601ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-227.cnf
+Time taken: 594.2971ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-228.cnf
+Time taken: 695.2493ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-229.cnf
+Time taken: 252.3651ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-23.cnf
+Time taken: 1446.8658ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-230.cnf
+Time taken: 174.3284ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-231.cnf
+Time taken: 435.9202ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-232.cnf
+Time taken: 201.565ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-233.cnf
+Time taken: 503.596ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-234.cnf
+Time taken: 1284.587ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-235.cnf
+Time taken: 254.8807ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-236.cnf
+Time taken: 171.8329ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-237.cnf
+Time taken: 1177.3056ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-238.cnf
+Time taken: 56.1833ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-239.cnf
+Time taken: 84.7944ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-24.cnf
+Time taken: 894.1897ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-240.cnf
+Time taken: 1186.538ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-241.cnf
+Time taken: 113.6526ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-242.cnf
+Time taken: 210.0045ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-243.cnf
+Time taken: 297.1123ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-244.cnf
+Time taken: 122.3713ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-245.cnf
+Time taken: 588.6356ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-246.cnf
+Time taken: 86.7514ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-247.cnf
+Time taken: 927.8536ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-248.cnf
+Time taken: 138.1133ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-249.cnf
+Time taken: 80.1754ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-25.cnf
+Time taken: 190.8261ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-250.cnf
+Time taken: 98.3416ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-251.cnf
+Time taken: 644.0232ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-252.cnf
+Time taken: 224.6959ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-253.cnf
+Time taken: 241.1272ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-254.cnf
+Time taken: 130.4792ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-255.cnf
+Time taken: 136.0911ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-256.cnf
+Time taken: 179.6486ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-257.cnf
+Time taken: 1176.1915ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-258.cnf
+Time taken: 284.112ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-259.cnf
+Time taken: 371.5923ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-26.cnf
+Time taken: 117.426ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-260.cnf
+Time taken: 100.3407ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-261.cnf
+Time taken: 467.9125ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-262.cnf
+Time taken: 911.3947ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-263.cnf
+Time taken: 1003.0945ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-264.cnf
+Time taken: 2418.1952ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-265.cnf
+Time taken: 66.8374ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-266.cnf
+Time taken: 224.3184ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-267.cnf
+Time taken: 112.3543ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-268.cnf
+Time taken: 624.8733ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-269.cnf
+Time taken: 172.8739ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-27.cnf
+Time taken: 329.7146ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-270.cnf
+Time taken: 1157.9768ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-271.cnf
+Time taken: 101.9132ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-272.cnf
+Time taken: 537.2158ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-273.cnf
+Time taken: 567.3497ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-274.cnf
+Time taken: 179.7779ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-275.cnf
+Time taken: 1626.6294ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-276.cnf
+Time taken: 1281.4107ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-277.cnf
+Time taken: 675.9183ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-278.cnf
+Time taken: 176.2889ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-279.cnf
+Time taken: 211.9263ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-28.cnf
+Time taken: 149.0879ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-280.cnf
+Time taken: 139.1504ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-281.cnf
+Time taken: 137.8198ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-282.cnf
+Time taken: 118.125ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-283.cnf
+Time taken: 113.8004ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-284.cnf
+Time taken: 479.65ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-285.cnf
+Time taken: 996.2727ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-286.cnf
+Time taken: 843.8762ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-287.cnf
+Time taken: 258.2893ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-288.cnf
+Time taken: 1077.9991ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-289.cnf
+Time taken: 907.6376ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-29.cnf
+Time taken: 441.6407ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-290.cnf
+Time taken: 1740.2631ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-291.cnf
+Time taken: 112.2938ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-292.cnf
+Time taken: 124.4046ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-293.cnf
+Time taken: 2709.3417ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-294.cnf
+Time taken: 2072.3643ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-295.cnf
+Time taken: 1401.7346ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-296.cnf
+Time taken: 77.5403ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-297.cnf
+Time taken: 334.3674ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-298.cnf
+Time taken: 92.0202ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-299.cnf
+Time taken: 168.0493ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-3.cnf
+Time taken: 625.8292ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-30.cnf
+Time taken: 131.7266ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-300.cnf
+Time taken: 683.4341ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-301.cnf
+Time taken: 276.0234ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-302.cnf
+Time taken: 1352.236ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-303.cnf
+Time taken: 1070.4451ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-304.cnf
+Time taken: 439.4093ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-305.cnf
+Time taken: 215.5249ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-306.cnf
+Time taken: 358.6232ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-307.cnf
+Time taken: 202.2025ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-308.cnf
+Time taken: 262.6793ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-309.cnf
+Time taken: 274.7789ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-31.cnf
+Time taken: 77.5205ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-310.cnf
+Time taken: 2311.7527ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-311.cnf
+Time taken: 197.8092ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-312.cnf
+Time taken: 151.2699ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-313.cnf
+Time taken: 339.5989ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-314.cnf
+Time taken: 723.3743ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-315.cnf
+Time taken: 266.1802ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-316.cnf
+Time taken: 248.2131ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-317.cnf
+Time taken: 833.1683ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-318.cnf
+Time taken: 1783.7165ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-319.cnf
+Time taken: 620.6606ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-32.cnf
+Time taken: 487.482ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-320.cnf
+Time taken: 109.5481ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-321.cnf
+Time taken: 233.0427ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-322.cnf
+Time taken: 145.4228ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-323.cnf
+Time taken: 146.0853ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-324.cnf
+Time taken: 377.9895ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-325.cnf
+Time taken: 558.0356ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-326.cnf
+Time taken: 621.193ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-327.cnf
+Time taken: 209.3951ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-328.cnf
+Time taken: 120.1719ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-329.cnf
+Time taken: 105.3026ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-33.cnf
+Time taken: 5173.412ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-330.cnf
+Time taken: 3081.2066ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-331.cnf
+Time taken: 241.1418ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-332.cnf
+Time taken: 1505.726ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-333.cnf
+Time taken: 1689.0066ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-334.cnf
+Time taken: 210.6897ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-335.cnf
+Time taken: 580.4954ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-336.cnf
+Time taken: 150.2313ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-337.cnf
+Time taken: 3390.3902ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-338.cnf
+Time taken: 102.7484ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-339.cnf
+Time taken: 125.8568ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-34.cnf
+Time taken: 1398.8624ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-340.cnf
+Time taken: 72.4009ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-341.cnf
+Time taken: 92.8559ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-342.cnf
+Time taken: 100.5246ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-343.cnf
+Time taken: 369.3817ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-344.cnf
+Time taken: 961.2525ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-345.cnf
+Time taken: 625.1942ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-346.cnf
+Time taken: 1300.0463ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-347.cnf
+Time taken: 331.7736ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-348.cnf
+Time taken: 240.4586ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-349.cnf
+Time taken: 190.2903ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-35.cnf
+Time taken: 697.0574ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-350.cnf
+Time taken: 744.2807ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-351.cnf
+Time taken: 93.7493ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-352.cnf
+Time taken: 242.2917ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-353.cnf
+Time taken: 560.1198ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-354.cnf
+Time taken: 1771.5242ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-355.cnf
+Time taken: 1021.8729ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-356.cnf
+Time taken: 724.1596ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-357.cnf
+Time taken: 119.0764ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-358.cnf
+Time taken: 6744.9011ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-359.cnf
+Time taken: 637.9577ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-36.cnf
+Time taken: 141.1034ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-360.cnf
+Time taken: 262.1757ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-361.cnf
+Time taken: 214.3726ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-362.cnf
+Time taken: 97.0273ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-363.cnf
+Time taken: 130.859ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-364.cnf
+Time taken: 455.2855ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-365.cnf
+Time taken: 142.2842ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-366.cnf
+Time taken: 518.9904ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-367.cnf
+Time taken: 201.5202ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-368.cnf
+Time taken: 1478.5179ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-369.cnf
+Time taken: 1182.6922ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-37.cnf
+Time taken: 1757.8262ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-370.cnf
+Time taken: 429.989ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-371.cnf
+Time taken: 389.8806ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-372.cnf
+Time taken: 76.9257ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-373.cnf
+Time taken: 373.8807ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-374.cnf
+Time taken: 666.5291ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-375.cnf
+Time taken: 372.069ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-376.cnf
+Time taken: 2127.5283ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-377.cnf
+Time taken: 1249.0598ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-378.cnf
+Time taken: 1231.3965ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-379.cnf
+Time taken: 1080.9936ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-38.cnf
+Time taken: 1235.3784ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-380.cnf
+Time taken: 241.6207ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-381.cnf
+Time taken: 4029.704ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-382.cnf
+Time taken: 649.962ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-383.cnf
+Time taken: 197.0097ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-384.cnf
+Time taken: 399.278ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-385.cnf
+Time taken: 451.349ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-386.cnf
+Time taken: 203.8371ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-387.cnf
+Time taken: 237.5414ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-388.cnf
+Time taken: 354.238ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-389.cnf
+Time taken: 174.6082ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-39.cnf
+Time taken: 3467.1854ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-390.cnf
+Time taken: 680.4014ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-391.cnf
+Time taken: 85.9111ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-392.cnf
+Time taken: 744.5044ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-393.cnf
+Time taken: 1231.2482ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-394.cnf
+Time taken: 98.8823ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-395.cnf
+Time taken: 335.1776ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-396.cnf
+Time taken: 319.1317ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-397.cnf
+Time taken: 143.6468ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-398.cnf
+Time taken: 575.9548ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-399.cnf
+Time taken: 815.6131ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-4.cnf
+Time taken: 924.4961ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-40.cnf
+Time taken: 153.3435ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-400.cnf
+Time taken: 1157.3318ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-401.cnf
+Time taken: 469.108ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-402.cnf
+Time taken: 572.0528ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-403.cnf
+Time taken: 303.5952ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-404.cnf
+Time taken: 1383.4365ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-405.cnf
+Time taken: 227.89ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-406.cnf
+Time taken: 1220.9129ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-407.cnf
+Time taken: 631.1552ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-408.cnf
+Time taken: 1498.714ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-409.cnf
+Time taken: 689.5465ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-41.cnf
+Time taken: 535.8627ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-410.cnf
+Time taken: 177.1808ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-411.cnf
+Time taken: 140.2626ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-412.cnf
+Time taken: 1680.5078ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-413.cnf
+Time taken: 73.5781ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-414.cnf
+Time taken: 103.8755ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-415.cnf
+Time taken: 529.5308ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-416.cnf
+Time taken: 106.0265ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-417.cnf
+Time taken: 387.9663ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-418.cnf
+Time taken: 480.5444ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-419.cnf
+Time taken: 2156.6422ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-42.cnf
+Time taken: 119.8887ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-420.cnf
+Time taken: 289.9692ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-421.cnf
+Time taken: 644.7614ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-422.cnf
+Time taken: 298.672ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-423.cnf
+Time taken: 618.0026ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-424.cnf
+Time taken: 233.4593ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-425.cnf
+Time taken: 387.4116ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-426.cnf
+Time taken: 221.8532ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-427.cnf
+Time taken: 247.7853ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-428.cnf
+Time taken: 1210.1856ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-429.cnf
+Time taken: 895.8828ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-43.cnf
+Time taken: 488.1627ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-430.cnf
+Time taken: 366.9764ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-431.cnf
+Time taken: 552.2633ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-432.cnf
+Time taken: 74.6171ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-433.cnf
+Time taken: 262.7675ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-434.cnf
+Time taken: 318.5413ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-435.cnf
+Time taken: 871.8333ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-436.cnf
+Time taken: 134.1841ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-437.cnf
+Time taken: 106.8901ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-438.cnf
+Time taken: 495.4664ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-439.cnf
+Time taken: 921.6391ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-44.cnf
+Time taken: 903.5877ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-440.cnf
+Time taken: 549.6633ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-441.cnf
+Time taken: 146.9665ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-442.cnf
+Time taken: 589.9875ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-443.cnf
+Time taken: 330.1114ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-444.cnf
+Time taken: 437.4784ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-445.cnf
+Time taken: 188.1307ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-446.cnf
+Time taken: 369.4864ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-447.cnf
+Time taken: 191.6141ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-448.cnf
+Time taken: 60.6725ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-449.cnf
+Time taken: 1331.8592ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-45.cnf
+Time taken: 679.6618ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-450.cnf
+Time taken: 235.7235ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-451.cnf
+Time taken: 423.5613ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-452.cnf
+Time taken: 182.9887ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-453.cnf
+Time taken: 586.8372ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-454.cnf
+Time taken: 71.1828ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-455.cnf
+Time taken: 924.2405ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-456.cnf
+Time taken: 958.7439ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-457.cnf
+Time taken: 275.2482ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-458.cnf
+Time taken: 246.6357ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-459.cnf
+Time taken: 2768.8308ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-46.cnf
+Time taken: 3624.3783ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-460.cnf
+Time taken: 2085.1094ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-461.cnf
+Time taken: 259.2532ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-462.cnf
+Time taken: 188.3309ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-463.cnf
+Time taken: 305.1751ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-464.cnf
+Time taken: 304.1685ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-465.cnf
+Time taken: 701.4477ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-466.cnf
+Time taken: 274.0582ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-467.cnf
+Time taken: 2268.1626ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-468.cnf
+Time taken: 302.9685ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-469.cnf
+Time taken: 1216.4898ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-47.cnf
+Time taken: 409.9896ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-470.cnf
+Time taken: 238.5884ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-471.cnf
+Time taken: 479.4458ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-472.cnf
+Time taken: 347.8476ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-473.cnf
+Time taken: 123.747ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-474.cnf
+Time taken: 1024.5254ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-475.cnf
+Time taken: 564.727ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-476.cnf
+Time taken: 426.0469ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-477.cnf
+Time taken: 159.5061ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-478.cnf
+Time taken: 558.5425ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-479.cnf
+Time taken: 836.416ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-48.cnf
+Time taken: 120.2605ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-480.cnf
+Time taken: 141.025ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-481.cnf
+Time taken: 313.3153ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-482.cnf
+Time taken: 9678.7183ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-483.cnf
+Time taken: 230.1002ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-484.cnf
+Time taken: 144.2936ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-485.cnf
+Time taken: 4831.5336ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-486.cnf
+Time taken: 302.6634ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-487.cnf
+Time taken: 696.8128ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-488.cnf
+Time taken: 412.9207ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-489.cnf
+Time taken: 986.1962ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-49.cnf
+Time taken: 157.7232ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-490.cnf
+Time taken: 551.2828ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-491.cnf
+Time taken: 134.9677ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-492.cnf
+Time taken: 353.1734ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-493.cnf
+Time taken: 581.1246ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-494.cnf
+Time taken: 95.8575ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-495.cnf
+Time taken: 186.4534ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-496.cnf
+Time taken: 400.7312ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-497.cnf
+Time taken: 508.3942ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-498.cnf
+Time taken: 714.0536ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-499.cnf
+Time taken: 192.2599ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-5.cnf
+Time taken: 1269.126ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-50.cnf
+Time taken: 2058.2213ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-500.cnf
+Time taken: 796.9689ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-501.cnf
+Time taken: 120.0022ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-502.cnf
+Time taken: 78.9683ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-503.cnf
+Time taken: 1914.7241ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-504.cnf
+Time taken: 117.1413ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-505.cnf
+Time taken: 1843.133ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-506.cnf
+Time taken: 634.8389ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-507.cnf
+Time taken: 179.2297ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-508.cnf
+Time taken: 937.7716ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-509.cnf
+Time taken: 420.0132ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-51.cnf
+Time taken: 3271.2921ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-510.cnf
+Time taken: 756.1047ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-511.cnf
+Time taken: 260.9412ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-512.cnf
+Time taken: 439.1051ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-513.cnf
+Time taken: 1564.5396ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-514.cnf
+Time taken: 982.4263ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-515.cnf
+Time taken: 283.5037ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-516.cnf
+Time taken: 295.2399ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-517.cnf
+Time taken: 2153.666ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-518.cnf
+Time taken: 137.3815ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-519.cnf
+Time taken: 264.2348ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-52.cnf
+Time taken: 180.4413ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-520.cnf
+Time taken: 1963.4077ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-521.cnf
+Time taken: 461.1823ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-522.cnf
+Time taken: 428.1948ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-523.cnf
+Time taken: 824.2349ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-524.cnf
+Time taken: 531.9675ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-525.cnf
+Time taken: 236.932ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-526.cnf
+Time taken: 330.3ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-527.cnf
+Time taken: 191.7391ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-528.cnf
+Time taken: 118.8027ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-529.cnf
+Time taken: 81.7995ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-53.cnf
+Time taken: 480.6303ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-530.cnf
+Time taken: 581.2355ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-531.cnf
+Time taken: 288.5621ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-532.cnf
+Time taken: 668.0845ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-533.cnf
+Time taken: 548.6617ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-534.cnf
+Time taken: 769.4669ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-535.cnf
+Time taken: 1007.1144ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-536.cnf
+Time taken: 340.3948ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-537.cnf
+Time taken: 1055.296ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-538.cnf
+Time taken: 1937.3119ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-539.cnf
+Time taken: 55.8327ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-54.cnf
+Time taken: 376.5162ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-540.cnf
+Time taken: 460.4052ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-541.cnf
+Time taken: 862.4682ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-542.cnf
+Time taken: 78.8369ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-543.cnf
+Time taken: 535.0232ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-544.cnf
+Time taken: 235.9014ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-545.cnf
+Time taken: 109.0966ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-546.cnf
+Time taken: 672.3247ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-547.cnf
+Time taken: 95.6761ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-548.cnf
+Time taken: 697.2238ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-549.cnf
+Time taken: 1275.8491ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-55.cnf
+Time taken: 1990.9184ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-550.cnf
+Time taken: 276.2104ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-551.cnf
+Time taken: 244.8699ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-552.cnf
+Time taken: 234.1479ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-553.cnf
+Time taken: 63.8196ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-554.cnf
+Time taken: 2064.503ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-555.cnf
+Time taken: 176.2132ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-556.cnf
+Time taken: 183.5987ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-557.cnf
+Time taken: 370.9395ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-558.cnf
+Time taken: 825.6893ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-559.cnf
+Time taken: 1345.4494ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-56.cnf
+Time taken: 351.1505ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-560.cnf
+Time taken: 191.1888ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-561.cnf
+Time taken: 78.1423ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-562.cnf
+Time taken: 349.1541ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-563.cnf
+Time taken: 899.4778ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-564.cnf
+Time taken: 149.5637ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-565.cnf
+Time taken: 308.0414ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-566.cnf
+Time taken: 75.601ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-567.cnf
+Time taken: 247.2375ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-568.cnf
+Time taken: 139.1816ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-569.cnf
+Time taken: 603.794ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-57.cnf
+Time taken: 990.4052ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-570.cnf
+Time taken: 255.3278ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-571.cnf
+Time taken: 3034.551ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-572.cnf
+Time taken: 931.081ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-573.cnf
+Time taken: 1250.6736ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-574.cnf
+Time taken: 142.3947ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-575.cnf
+Time taken: 59.936ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-576.cnf
+Time taken: 2112.396ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-577.cnf
+Time taken: 989.1884ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-578.cnf
+Time taken: 159.1095ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-579.cnf
+Time taken: 110.9285ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-58.cnf
+Time taken: 96.988ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-580.cnf
+Time taken: 788.2259ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-581.cnf
+Time taken: 367.0093ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-582.cnf
+Time taken: 225.6544ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-583.cnf
+Time taken: 2774.7799ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-584.cnf
+Time taken: 518.6317ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-585.cnf
+Time taken: 1890.0997ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-586.cnf
+Time taken: 134.5541ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-587.cnf
+Time taken: 653.1946ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-588.cnf
+Time taken: 755.3356ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-589.cnf
+Time taken: 315.3934ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-59.cnf
+Time taken: 809.7792ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-590.cnf
+Time taken: 247.9027ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-591.cnf
+Time taken: 536.6163ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-592.cnf
+Time taken: 1447.7994ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-593.cnf
+Time taken: 165.9455ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-594.cnf
+Time taken: 233.3252ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-595.cnf
+Time taken: 95.2239ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-596.cnf
+Time taken: 2404.6865ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-597.cnf
+Time taken: 732.1524ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-598.cnf
+Time taken: 930.4551ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-599.cnf
+Time taken: 384.97ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-6.cnf
+Time taken: 53.4215ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-60.cnf
+Time taken: 531.4001ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-600.cnf
+Time taken: 912.4236ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-601.cnf
+Time taken: 1810.7021ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-602.cnf
+Time taken: 302.074ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-603.cnf
+Time taken: 1181.8543ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-604.cnf
+Time taken: 213.6671ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-605.cnf
+Time taken: 270.6479ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-606.cnf
+Time taken: 1075.5269ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-607.cnf
+Time taken: 166.9405ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-608.cnf
+Time taken: 120.218ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-609.cnf
+Time taken: 101.0866ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-61.cnf
+Time taken: 1402.3437ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-610.cnf
+Time taken: 464.9641ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-611.cnf
+Time taken: 1137.3505ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-612.cnf
+Time taken: 604.6868ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-613.cnf
+Time taken: 512.7335ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-614.cnf
+Time taken: 1428.4765ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-615.cnf
+Time taken: 192.2512ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-616.cnf
+Time taken: 219.7612ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-617.cnf
+Time taken: 73.3537ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-618.cnf
+Time taken: 118.7264ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-619.cnf
+Time taken: 354.2033ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-62.cnf
+Time taken: 654.3078ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-620.cnf
+Time taken: 682.553ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-621.cnf
+Time taken: 868.2387ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-622.cnf
+Time taken: 372.3163ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-623.cnf
+Time taken: 436.3128ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-624.cnf
+Time taken: 934.1334ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-625.cnf
+Time taken: 246.967ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-626.cnf
+Time taken: 140.556ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-627.cnf
+Time taken: 315.5925ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-628.cnf
+Time taken: 241.7264ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-629.cnf
+Time taken: 230.2065ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-63.cnf
+Time taken: 2963.1127ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-630.cnf
+Time taken: 181.7169ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-631.cnf
+Time taken: 75.5212ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-632.cnf
+Time taken: 335.9269ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-633.cnf
+Time taken: 137.7936ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-634.cnf
+Time taken: 139.1325ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-635.cnf
+Time taken: 68.0691ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-636.cnf
+Time taken: 668.5685ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-637.cnf
+Time taken: 1040.6881ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-638.cnf
+Time taken: 108.5154ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-639.cnf
+Time taken: 100.7921ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-64.cnf
+Time taken: 615.8321ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-640.cnf
+Time taken: 137.6846ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-641.cnf
+Time taken: 123.4384ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-642.cnf
+Time taken: 1287.6674ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-643.cnf
+Time taken: 252.6502ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-644.cnf
+Time taken: 540.5097ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-645.cnf
+Time taken: 94.6246ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-646.cnf
+Time taken: 705.0466ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-647.cnf
+Time taken: 120.7871ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-648.cnf
+Time taken: 852.57ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-649.cnf
+Time taken: 429.5778ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-65.cnf
+Time taken: 87.1697ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-650.cnf
+Time taken: 2144.8928ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-651.cnf
+Time taken: 117.2357ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-652.cnf
+Time taken: 331.6505ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-653.cnf
+Time taken: 533.9068ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-654.cnf
+Time taken: 574.0441ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-655.cnf
+Time taken: 148.3273ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-656.cnf
+Time taken: 460.4555ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-657.cnf
+Time taken: 395.4568ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-658.cnf
+Time taken: 1085.1329ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-659.cnf
+Time taken: 72.2384ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-66.cnf
+Time taken: 2884.5999ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-660.cnf
+Time taken: 308.0941ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-661.cnf
+Time taken: 364.6768ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-662.cnf
+Time taken: 332.8494ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-663.cnf
+Time taken: 320.4382ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-664.cnf
+Time taken: 770.9779ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-665.cnf
+Time taken: 449.7986ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-666.cnf
+Time taken: 168.1252ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-667.cnf
+Time taken: 263.0197ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-668.cnf
+Time taken: 762.0685ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-669.cnf
+Time taken: 99.2199ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-67.cnf
+Time taken: 77.4987ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-670.cnf
+Time taken: 762.2819ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-671.cnf
+Time taken: 257.2202ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-672.cnf
+Time taken: 3376.9115ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-673.cnf
+Time taken: 623.282ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-674.cnf
+Time taken: 480.1645ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-675.cnf
+Time taken: 905.3998ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-676.cnf
+Time taken: 1154.0768ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-677.cnf
+Time taken: 71.0747ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-678.cnf
+Time taken: 86.4206ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-679.cnf
+Time taken: 646.4251ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-68.cnf
+Time taken: 626.5831ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-680.cnf
+Time taken: 1002.8759ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-681.cnf
+Time taken: 1558.0465ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-682.cnf
+Time taken: 772.7683ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-683.cnf
+Time taken: 462.1676ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-684.cnf
+Time taken: 1208.6412ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-685.cnf
+Time taken: 1129.8526ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-686.cnf
+Time taken: 376.3404ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-687.cnf
+Time taken: 2274.9927ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-688.cnf
+Time taken: 958.6439ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-689.cnf
+Time taken: 354.9057ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-69.cnf
+Time taken: 66.6523ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-690.cnf
+Time taken: 580.6068ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-691.cnf
+Time taken: 573.6027ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-692.cnf
+Time taken: 948.4235ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-693.cnf
+Time taken: 2040.3241ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-694.cnf
+Time taken: 436.1239ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-695.cnf
+Time taken: 2668.0872ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-696.cnf
+Time taken: 78.9924ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-697.cnf
+Time taken: 192.5931ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-698.cnf
+Time taken: 171.9532ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-699.cnf
+Time taken: 417.0028ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-7.cnf
+Time taken: 774.6466ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-70.cnf
+Time taken: 2577.394ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-700.cnf
+Time taken: 167.9947ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-701.cnf
+Time taken: 414.1455ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-702.cnf
+Time taken: 125.745ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-703.cnf
+Time taken: 732.3001ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-704.cnf
+Time taken: 167.8808ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-705.cnf
+Time taken: 559.2356ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-706.cnf
+Time taken: 456.8959ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-707.cnf
+Time taken: 751.1582ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-708.cnf
+Time taken: 1227.3928ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-709.cnf
+Time taken: 1192.14ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-71.cnf
+Time taken: 2019.1602ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-710.cnf
+Time taken: 3204.8233ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-711.cnf
+Time taken: 197.6595ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-712.cnf
+Time taken: 315.9065ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-713.cnf
+Time taken: 137.8873ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-714.cnf
+Time taken: 181.581ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-715.cnf
+Time taken: 3204.9484ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-716.cnf
+Time taken: 851.8777ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-717.cnf
+Time taken: 583.4728ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-718.cnf
+Time taken: 705.6801ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-719.cnf
+Time taken: 276.3822ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-72.cnf
+Time taken: 799.6101ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-720.cnf
+Time taken: 2018.4636ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-721.cnf
+Time taken: 134.5389ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-722.cnf
+Time taken: 278.2583ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-723.cnf
+Time taken: 74.7305ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-724.cnf
+Time taken: 87.8058ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-725.cnf
+Time taken: 822.6121ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-726.cnf
+Time taken: 177.8731ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-727.cnf
+Time taken: 694.4312ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-728.cnf
+Time taken: 239.1257ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-729.cnf
+Time taken: 195.4072ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-730.cnf
+Time taken: 85.0202ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-731.cnf
+Time taken: 537.4175ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-732.cnf
+Time taken: 89.1996ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-733.cnf
+Time taken: 1253.9509ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-734.cnf
+Time taken: 428.5592ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-735.cnf
+Time taken: 252.1058ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-736.cnf
+Time taken: 285.5358ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-737.cnf
+Time taken: 153.1376ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-738.cnf
+Time taken: 508.8064ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-739.cnf
+Time taken: 104.2657ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-74.cnf
+Time taken: 1171.9556ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-740.cnf
+Time taken: 270.1209ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-741.cnf
+Time taken: 293.7874ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-742.cnf
+Time taken: 92.6178ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-743.cnf
+Time taken: 357.3323ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-744.cnf
+Time taken: 1031.9746ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-745.cnf
+Time taken: 467.7603ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-746.cnf
+Time taken: 569.4234ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-747.cnf
+Time taken: 757.3203ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-748.cnf
+Time taken: 99.691ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-749.cnf
+Time taken: 1098.5547ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-75.cnf
+Time taken: 927.9995ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-750.cnf
+Time taken: 446.8931ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-751.cnf
+Time taken: 76.4543ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-752.cnf
+Time taken: 527.7884ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-753.cnf
+Time taken: 194.097ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-754.cnf
+Time taken: 199.2522ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-755.cnf
+Time taken: 3030.2661ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-756.cnf
+Time taken: 69.2706ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-757.cnf
+Time taken: 1010.6103ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-758.cnf
+Time taken: 587.2028ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-759.cnf
+Time taken: 478.7482ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-76.cnf
+Time taken: 645.1907ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-760.cnf
+Time taken: 388.6902ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-761.cnf
+Time taken: 239.6047ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-762.cnf
+Time taken: 808.5201ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-763.cnf
+Time taken: 285.1044ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-764.cnf
+Time taken: 102.6381ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-765.cnf
+Time taken: 1132.777ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-766.cnf
+Time taken: 431.8563ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-767.cnf
+Time taken: 198.2686ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-768.cnf
+Time taken: 85.8703ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-769.cnf
+Time taken: 544.8017ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-77.cnf
+Time taken: 2121.8618ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-770.cnf
+Time taken: 164.8351ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-771.cnf
+Time taken: 130.1642ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-772.cnf
+Time taken: 967.6448ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-773.cnf
+Time taken: 609.7328ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-774.cnf
+Time taken: 448.7258ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-775.cnf
+Time taken: 211.1737ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-776.cnf
+Time taken: 135.3994ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-777.cnf
+Time taken: 119.1991ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-778.cnf
+Time taken: 2525.0239ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-779.cnf
+Time taken: 95.2158ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-78.cnf
+Time taken: 354.2146ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-780.cnf
+Time taken: 168.5197ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-781.cnf
+Time taken: 599.8638ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-782.cnf
+Time taken: 841.7635ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-783.cnf
+Time taken: 92.3012ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-784.cnf
+Time taken: 65.7728ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-785.cnf
+Time taken: 345.3804ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-786.cnf
+Time taken: 334.5499ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-787.cnf
+Time taken: 613.6434ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-788.cnf
+Time taken: 714.5868ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-789.cnf
+Time taken: 712.3308ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-79.cnf
+Time taken: 162.3772ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-790.cnf
+Time taken: 161.8808ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-791.cnf
+Time taken: 72.9523ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-792.cnf
+Time taken: 172.314ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-793.cnf
+Time taken: 98.3675ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-794.cnf
+Time taken: 1955.7643ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-795.cnf
+Time taken: 874.4103ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-796.cnf
+Time taken: 94.868ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-797.cnf
+Time taken: 181.6444ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-798.cnf
+Time taken: 975.2885ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-799.cnf
+Time taken: 5563.401ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-8.cnf
+Time taken: 514.6225ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-80.cnf
+Time taken: 636.0478ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-800.cnf
+Time taken: 1717.9736ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-801.cnf
+Time taken: 225.5077ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-802.cnf
+Time taken: 142.84ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-803.cnf
+Time taken: 710.1726ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-804.cnf
+Time taken: 268.5871ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-805.cnf
+Time taken: 284.5593ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-806.cnf
+Time taken: 206.4272ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-807.cnf
+Time taken: 362.5501ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-808.cnf
+Time taken: 241.3534ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-809.cnf
+Time taken: 242.4193ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-81.cnf
+Time taken: 226.7074ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-810.cnf
+Time taken: 302.1045ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-811.cnf
+Time taken: 2201.4513ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-812.cnf
+Time taken: 277.5747ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-813.cnf
+Time taken: 121.2197ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-814.cnf
+Time taken: 1378.848ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-815.cnf
+Time taken: 206.1197ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-816.cnf
+Time taken: 98.0526ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-817.cnf
+Time taken: 324.71ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-818.cnf
+Time taken: 1787.6947ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-819.cnf
+Time taken: 515.9268ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-82.cnf
+Time taken: 149.5582ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-820.cnf
+Time taken: 537.9532ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-821.cnf
+Time taken: 558.383ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-822.cnf
+Time taken: 1440.2485ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-823.cnf
+Time taken: 5242.8482ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-824.cnf
+Time taken: 745.6304ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-825.cnf
+Time taken: 187.8428ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-826.cnf
+Time taken: 837.4766ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-827.cnf
+Time taken: 454.2472ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-828.cnf
+Time taken: 1205.026ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-829.cnf
+Time taken: 156.0298ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-83.cnf
+Time taken: 1994.2914ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-830.cnf
+Time taken: 102.5028ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-831.cnf
+Time taken: 61.5639ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-832.cnf
+Time taken: 2702.745ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-833.cnf
+Time taken: 304.983ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-834.cnf
+Time taken: 218.2875ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-835.cnf
+Time taken: 1015.7775ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-836.cnf
+Time taken: 1188.0947ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-837.cnf
+Time taken: 206.3162ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-838.cnf
+Time taken: 67.5435ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-839.cnf
+Time taken: 252.1144ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-84.cnf
+Time taken: 2161.5719ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-840.cnf
+Time taken: 1697.4034ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-841.cnf
+Time taken: 95.5981ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-842.cnf
+Time taken: 345.5652ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-843.cnf
+Time taken: 1598.3215ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-844.cnf
+Time taken: 337.3167ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-845.cnf
+Time taken: 279.3002ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-846.cnf
+Time taken: 836.0574ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-847.cnf
+Time taken: 155.9391ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-848.cnf
+Time taken: 633.733ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-849.cnf
+Time taken: 1474.6841ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-85.cnf
+Time taken: 337.9122ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-850.cnf
+Time taken: 89.279ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-851.cnf
+Time taken: 132.821ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-852.cnf
+Time taken: 1712.7953ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-853.cnf
+Time taken: 212.5485ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-854.cnf
+Time taken: 1768.7735ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-855.cnf
+Time taken: 275.6356ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-856.cnf
+Time taken: 53.1103ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-857.cnf
+Time taken: 434.0245ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-858.cnf
+Time taken: 183.867ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-859.cnf
+Time taken: 241.8638ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-86.cnf
+Time taken: 501.5207ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-860.cnf
+Time taken: 313.5514ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-861.cnf
+Time taken: 279.9497ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-862.cnf
+Time taken: 510.3868ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-863.cnf
+Time taken: 569.6086ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-864.cnf
+Time taken: 759.2916ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-865.cnf
+Time taken: 702.4484ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-866.cnf
+Time taken: 317.4463ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-867.cnf
+Time taken: 352.5959ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-868.cnf
+Time taken: 108.3626ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-869.cnf
+Time taken: 971.9067ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-87.cnf
+Time taken: 128.6534ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-870.cnf
+Time taken: 314.3325ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-871.cnf
+Time taken: 243.6857ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-872.cnf
+Time taken: 875.6967ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-873.cnf
+Time taken: 1291.2267ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-874.cnf
+Time taken: 107.0196ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-875.cnf
+Time taken: 1099.3477ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-876.cnf
+Time taken: 1832.4541ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-877.cnf
+Time taken: 182.2526ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-878.cnf
+Time taken: 765.4223ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-879.cnf
+Time taken: 498.1978ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-88.cnf
+Time taken: 1336.0096ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-880.cnf
+Time taken: 783.1727ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-881.cnf
+Time taken: 117.5225ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-882.cnf
+Time taken: 319.248ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-883.cnf
+Time taken: 2160.566ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-884.cnf
+Time taken: 1868.7271ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-885.cnf
+Time taken: 680.2286ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-886.cnf
+Time taken: 359.363ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-887.cnf
+Time taken: 582.6682ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-888.cnf
+Time taken: 805.5695ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-889.cnf
+Time taken: 134.0804ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-89.cnf
+Time taken: 6642.7377ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-890.cnf
+Time taken: 1466.3959ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-891.cnf
+Time taken: 222.0927ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-892.cnf
+Time taken: 700.6149ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-893.cnf
+Time taken: 344.382ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-894.cnf
+Time taken: 866.3243ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-895.cnf
+Time taken: 390.5975ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-896.cnf
+Time taken: 473.2227ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-897.cnf
+Time taken: 196.5514ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-898.cnf
+Time taken: 834.4185ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-899.cnf
+Time taken: 1010.4687ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-9.cnf
+Time taken: 99.0145ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-90.cnf
+Time taken: 195.1977ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-900.cnf
+Time taken: 854.612ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-901.cnf
+Time taken: 161.9354ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-902.cnf
+Time taken: 1415.9695ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-903.cnf
+Time taken: 1370.6839ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-904.cnf
+Time taken: 113.1617ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-905.cnf
+Time taken: 121.3597ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-906.cnf
+Time taken: 2642.3668ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-907.cnf
+Time taken: 101.9861ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-908.cnf
+Time taken: 551.2333ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-909.cnf
+Time taken: 208.7311ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-91.cnf
+Time taken: 535.2058ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-910.cnf
+Time taken: 3132.4825ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-911.cnf
+Time taken: 1112.4535ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-912.cnf
+Time taken: 1335.4353ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-913.cnf
+Time taken: 243.7918ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-914.cnf
+Time taken: 293.4648ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-915.cnf
+Time taken: 281.4197ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-916.cnf
+Time taken: 769.4367ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-917.cnf
+Time taken: 4325.8705ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-918.cnf
+Time taken: 132.2296ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-919.cnf
+Time taken: 255.5324ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-92.cnf
+Time taken: 1003.4336ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-920.cnf
+Time taken: 339.2267ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-921.cnf
+Time taken: 203.9958ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-922.cnf
+Time taken: 1315.9525ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-923.cnf
+Time taken: 104.7172ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-924.cnf
+Time taken: 851.0141ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-925.cnf
+Time taken: 133.9403ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-926.cnf
+Time taken: 3912.2444ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-927.cnf
+Time taken: 363.3616ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-928.cnf
+Time taken: 126.2293ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-929.cnf
+Time taken: 706.576ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-93.cnf
+Time taken: 1192.2031ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-930.cnf
+Time taken: 422.9387ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-931.cnf
+Time taken: 103.5114ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-932.cnf
+Time taken: 152.6825ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-933.cnf
+Time taken: 238.6698ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-934.cnf
+Time taken: 101.528ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-935.cnf
+Time taken: 87.9956ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-936.cnf
+Time taken: 234.4889ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-937.cnf
+Time taken: 1276.3189ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-938.cnf
+Time taken: 131.2612ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-939.cnf
+Time taken: 751.0601ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-94.cnf
+Time taken: 451.5438ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-940.cnf
+Time taken: 601.7962ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-941.cnf
+Time taken: 679.6573ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-942.cnf
+Time taken: 220.0865ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-943.cnf
+Time taken: 132.4846ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-944.cnf
+Time taken: 142.6774ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-945.cnf
+Time taken: 107.5831ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-946.cnf
+Time taken: 118.1384ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-947.cnf
+Time taken: 787.6249ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-948.cnf
+Time taken: 84.5804ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-949.cnf
+Time taken: 687.9645ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-95.cnf
+Time taken: 115.4084ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-950.cnf
+Time taken: 638.9363ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-951.cnf
+Time taken: 403.1642ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-952.cnf
+Time taken: 2268.1998ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-953.cnf
+Time taken: 1287.6037ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-954.cnf
+Time taken: 1294.6508ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-955.cnf
+Time taken: 1261.227ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-956.cnf
+Time taken: 1053.9367ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-957.cnf
+Time taken: 210.6764ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-958.cnf
+Time taken: 1862.7477ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-959.cnf
+Time taken: 1218.101ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-96.cnf
+Time taken: 970.3125ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-960.cnf
+Time taken: 332.0586ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-961.cnf
+Time taken: 4434.0135ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-962.cnf
+Time taken: 225.4214ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-963.cnf
+Time taken: 2778.4794ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-964.cnf
+Time taken: 1181.3635ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-965.cnf
+Time taken: 184.1415ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-966.cnf
+Time taken: 199.4484ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-967.cnf
+Time taken: 245.2945ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-968.cnf
+Time taken: 578.038ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-969.cnf
+Time taken: 135.1376ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-97.cnf
+Time taken: 191.0924ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-970.cnf
+Time taken: 102.3508ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-971.cnf
+Time taken: 615.1047ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-972.cnf
+Time taken: 374.6899ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-973.cnf
+Time taken: 688.722ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-974.cnf
+Time taken: 120.452ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-975.cnf
+Time taken: 713.3193ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-976.cnf
+Time taken: 107.2414ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-977.cnf
+Time taken: 773.0292ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-978.cnf
+Time taken: 268.0421ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-979.cnf
+Time taken: 110.0405ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-98.cnf
+Time taken: 142.7692ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-980.cnf
+Time taken: 282.2087ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-981.cnf
+Time taken: 315.2515ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-982.cnf
+Time taken: 1039.323ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-983.cnf
+Time taken: 252.5749ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-984.cnf
+Time taken: 85.3969ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-985.cnf
+Time taken: 109.547ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-986.cnf
+Time taken: 413.3518ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-987.cnf
+Time taken: 441.5627ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-988.cnf
+Time taken: 136.7828ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-989.cnf
+Time taken: 377.155ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-99.cnf
+Time taken: 2601.7684ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-990.cnf
+Time taken: 200.0378ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-991.cnf
+Time taken: 493.0801ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-992.cnf
+Time taken: 92.5812ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-993.cnf
+Time taken: 10751.0309ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-994.cnf
+Time taken: 74.4988ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-995.cnf
+Time taken: 1896.2967ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-996.cnf
+Time taken: 479.1444ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-997.cnf
+Time taken: 66.5265ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-998.cnf
+Time taken: 224.5868ms
+Running file - C:\KCL\SAT_DIMACS\flat50-115\flat50-999.cnf
+Time taken: 170.842ms
+Solved 999 of 999.
+Average Time: 0.688s. Average Generations: 559.39. Average Restarts: 4.58.
+Min Time: 0.053s. Max Time: 10.751s. Min Generations: 43. Max Generations: 8981. Min Restarts: 0. Max Restarts: 86
+Press any key to exit.
