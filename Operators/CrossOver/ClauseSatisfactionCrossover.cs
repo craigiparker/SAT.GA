@@ -3,19 +3,31 @@ using SAT.GA.Models;
 
 namespace SAT.GA.Operators.Crossover;
 
+/// <summary>
+/// Implements clause satisfaction crossover, biasing offspring to satisfy clauses unsatisfied in one parent but satisfied in the other.
+/// </summary>
 public class ClauseSatisfactionCrossover : ICrossoverOperator<SatSolution>
 {
-    private readonly Random _random;
     private readonly double _crossoverRate;
-    private readonly ILocalSearch<SatSolution>? _localSearch;
+    private readonly Random _random;
 
-    public ClauseSatisfactionCrossover(Random random, ILocalSearch<SatSolution>? localSearch, double crossoverRate = 0.9)
+    /// <summary>
+    /// Initializes a new instance of the ClauseSatisfactionCrossover class.
+    /// </summary>
+    /// <param name="random">Random number generator.</param>
+    /// <param name="crossoverRate">Probability of performing crossover (otherwise a parent is cloned).</param>
+    public ClauseSatisfactionCrossover(Random random, double crossoverRate = 0.9)
     {
         _random = random;
-        _localSearch = localSearch;
         _crossoverRate = crossoverRate;
     }
 
+    /// <summary>
+    /// Performs clause satisfaction crossover between two parent solutions to produce an offspring.
+    /// </summary>
+    /// <param name="parent1">The first parent solution.</param>
+    /// <param name="parent2">The second parent solution.</param>
+    /// <returns>An enumerable containing one offspring solution.</returns>
     public IEnumerable<SatSolution> Crossover(SatSolution parent1, SatSolution parent2)
     {
         if (_random.NextDouble() > _crossoverRate)

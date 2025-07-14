@@ -2,8 +2,16 @@
 
 namespace SAT.GA.Utils;
 
+/// <summary>
+/// Parses DIMACS CNF files into SatInstance objects for use in the genetic algorithm.
+/// </summary>
 public class DimacsParser
 {
+    /// <summary>
+    /// Parses the contents of a DIMACS CNF file into a SatInstance.
+    /// </summary>
+    /// <param name="cnfContent">The string content of the CNF file.</param>
+    /// <returns>A SatInstance representing the parsed SAT problem.</returns>
     public SatInstance Parse(string cnfContent)
     {
         var lines = cnfContent.Split(['\n', '\r'], StringSplitOptions.RemoveEmptyEntries);

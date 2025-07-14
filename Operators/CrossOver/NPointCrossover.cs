@@ -3,11 +3,17 @@ using SAT.GA.Models;
 
 namespace SAT.GA.Operators.Crossover;
 
-public class NPointCrossover(int n, Random random) : ICrossoverOperator<SatSolution>
+/// <summary>
+/// Implements N-point crossover for SAT solutions, alternating segments between parents at N random points.
+/// </summary>
+public class NPointCrossover(int _n, Random _random) : ICrossoverOperator<SatSolution>
 {
-    private readonly Random _random = random;
-    private readonly int _n = n;
-
+    /// <summary>
+    /// Performs N-point crossover between two parent solutions to produce two offspring.
+    /// </summary>
+    /// <param name="parent1">The first parent solution.</param>
+    /// <param name="parent2">The second parent solution.</param>
+    /// <returns>An enumerable of two offspring solutions.</returns>
     public IEnumerable<SatSolution> Crossover(SatSolution parent1, SatSolution parent2)
     {
         var points = new List<int>();

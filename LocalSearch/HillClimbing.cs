@@ -3,15 +3,27 @@ using SAT.GA.Models;
 
 namespace SAT.GA.LocalSearch;
 
+/// <summary>
+/// Implements the Hill Climbing local search algorithm for improving SAT solutions.
+/// </summary>
 public class HillClimbing : ILocalSearch<SatSolution>
 {
     private readonly Random _random;
 
+    /// <summary>
+    /// Initializes a new instance of the HillClimbing class.
+    /// </summary>
+    /// <param name="random">Random number generator.</param>
     public HillClimbing(Random random)
     {
         _random = random;
     }
 
+    /// <summary>
+    /// Improves a SAT solution using hill climbing for a given number of iterations.
+    /// </summary>
+    /// <param name="individual">The SAT solution to improve.</param>
+    /// <param name="maxIterations">Maximum number of iterations to perform.</param>
     public void Improve(SatSolution individual, int maxIterations)
     {
         var currentFitness = individual.SatisfiedClausesCount();

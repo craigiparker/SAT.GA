@@ -1,7 +1,15 @@
 ﻿namespace SAT.GA.Configuration;
 
+/// <summary>
+/// Provides methods to parse command-line arguments into a GaConfig object for the genetic algorithm.
+/// </summary>
 public class GaConfigParser
 {
+    /// <summary>
+    /// Parses command-line arguments into a GaConfig object.
+    /// </summary>
+    /// <param name="args">The command-line arguments.</param>
+    /// <returns>A GaConfig object populated with the parsed values.</returns>
     public static GaConfig Parse(string[] args)
     {
         var config = new GaConfig();
@@ -134,6 +142,9 @@ public class GaConfigParser
         return config;
     }
 
+    /// <summary>
+    /// Prints help information for the available configuration options.
+    /// </summary>
     private static void PrintHelp()
     {
         Console.WriteLine("SAT.GA Configuration Options: Usage SAT.GA <fileName> [-flag] [value] pairs");

@@ -3,15 +3,28 @@ using SAT.GA.Models;
 
 namespace SAT.GA.Operators.Selection;
 
+/// <summary>
+/// Implements rank-based selection for SAT solutions, assigning selection probability based on rank.
+/// </summary>
 public class RankSelection : ISelectionOperator<SatSolution>
 {
     private readonly Random _random;
 
+    /// <summary>
+    /// Initializes a new instance of the RankSelection class.
+    /// </summary>
+    /// <param name="random">Random number generator.</param>
     public RankSelection(Random random)
     {
         _random = random;
     }
 
+    /// <summary>
+    /// Selects individuals for the next generation using rank-based selection.
+    /// </summary>
+    /// <param name="population">The current population.</param>
+    /// <param name="selectionSize">The number of individuals to select.</param>
+    /// <returns>A list of selected individuals.</returns>
     public List<SatSolution> Select(List<SatSolution> population, int selectionSize)
     {
         // Step 1: Sort population by fitness (ascending or descending depending on problem)

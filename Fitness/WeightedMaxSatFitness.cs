@@ -3,15 +3,27 @@ using SAT.GA.Models;
 
 namespace SAT.GA.Fitness;
 
+/// <summary>
+/// Fitness function that weights clauses based on difficulty and variable frequency for SAT solutions.
+/// </summary>
 public class WeightedMaxSatFitness : IFitnessFunction<SatSolution>
 {
-    private readonly double[] _clauseWeights;
-
+    /// <summary>
+    /// Initializes a new instance of the WeightedMaxSatFitness class for a given SAT instance.
+    /// </summary>
+    /// <param name="instance">The SAT instance to use for clause weighting.</param>
     public WeightedMaxSatFitness(SatInstance instance)
     {
         _clauseWeights = CalculateClauseWeights(instance);
     }
 
+    private readonly double[] _clauseWeights;
+
+    /// <summary>
+    /// Calculates normalized weights for each clause based on length, variable frequency, and literal distribution.
+    /// </summary>
+    /// <param name="instance">The SAT instance to analyze.</param>
+    /// <returns>Array of normalized clause weights.</returns>
     private double[] CalculateClauseWeights(SatInstance instance)
     {
         var weights = new double[instance.Clauses.Count];
@@ -51,6 +63,11 @@ public class WeightedMaxSatFitness : IFitnessFunction<SatSolution>
         return weights;
     }
 
+    /// <summary>
+    /// Calculates the frequency of each variable in the SAT instance.
+    /// </summary>
+    /// <param name="instance">The SAT instance to analyze.</param>
+    /// <returns>Dictionary mapping variable index to frequency.</returns>
     private Dictionary<int, int> CalculateVariableFrequency(SatInstance instance)
     {
         var frequency = new Dictionary<int, int>();
@@ -68,6 +85,11 @@ public class WeightedMaxSatFitness : IFitnessFunction<SatSolution>
         return frequency;
     }
 
+    /// <summary>
+    /// Calculates the weighted fitness score for a SAT solution.
+    /// </summary>
+    /// <param name="individual">The SAT solution to evaluate.</param>
+    /// <returns>The weighted fitness score.</returns>
     public double Calculate(SatSolution individual)
     {
         double score = 0;

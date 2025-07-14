@@ -3,12 +3,21 @@ using SAT.GA.Models;
 
 namespace SAT.GA.LocalSearch;
 
+/// <summary>
+/// Implements the Simulated Annealing local search algorithm for improving SAT solutions.
+/// </summary>
 public class SimulatedAnnealing : ILocalSearch<SatSolution>
 {
+    private readonly double _coolingRate;
     private readonly Random _random;
     private readonly double _initialTemperature;
-    private readonly double _coolingRate;
 
+    /// <summary>
+    /// Initializes a new instance of the SimulatedAnnealing class.
+    /// </summary>
+    /// <param name="random">Random number generator.</param>
+    /// <param name="initialTemperature">Initial temperature for annealing.</param>
+    /// <param name="coolingRate">Cooling rate for temperature decay.</param>
     public SimulatedAnnealing(Random random, double initialTemperature = 100.0, double coolingRate = 0.9)
     {
         _random = random;
@@ -16,6 +25,11 @@ public class SimulatedAnnealing : ILocalSearch<SatSolution>
         _coolingRate = coolingRate;
     }
 
+    /// <summary>
+    /// Improves a SAT solution using simulated annealing for a given number of iterations.
+    /// </summary>
+    /// <param name="individual">The SAT solution to improve.</param>
+    /// <param name="maxIterations">Maximum number of iterations to perform.</param>
     public void Improve(SatSolution individual, int maxIterations)
     {
         var currentFitness = individual.SatisfiedClausesCount();

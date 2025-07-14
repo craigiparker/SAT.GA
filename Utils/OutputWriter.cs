@@ -4,26 +4,40 @@ using System.Text;
 
 namespace SAT.GA.Utils;
 
+/// <summary>
+/// Handles formatted output and logging for the SAT genetic algorithm, including progress, results, and metrics.
+/// </summary>
 public class OutputWriter
 {
+    /// <summary>Path to the current file being processed.</summary>
+    public string? FilePath { get; set; }
+    /// <summary>Number of variables in the current SAT instance.</summary>
+    public int VariableCount { get; set; }
+    /// <summary>Number of clauses in the current SAT instance.</summary>
+    public int ClauseCount { get; set; }
+    /// <summary>Current generation number.</summary>
+    public int Generation { get; set; }
+    /// <summary>Number of restarts performed so far.</summary>
+    public int Restarts { get; set; }
+    /// <summary>Message to display in the output.</summary>
+    public string Message { get; set; } = string.Empty;
+    /// <summary>Stopwatch for timing the current run.</summary>
+    public Stopwatch? StopWatch { get; set; }
+    /// <summary>Best fitness value found so far.</summary>
+    public double? BestFitness { get; set; }
+    /// <summary>Printable solution string for the current SAT instance.</summary>
+    public string? Solution { get; set; }
+    /// <summary>Indicates whether the current solution satisfies all clauses.</summary>
+    public bool IsSatisfied { get; set; }
+    /// <summary>Current instance index for output positioning.</summary>
+    public int Instance { get; private set; }
+    /// <summary>Whether to hide output in the console.</summary>
+    public bool HideOutput { get; set; }
+
     private object _locker = new();
     private string _buffer = new string(' ', 20);
-    public string? FilePath { get; set; }
-    public int VariableCount { get; set; }
-    public int ClauseCount { get; set; }
-    public int Generation { get; set; }
-    public int Restarts { get; set; }
-    public string Message { get; set; } = string.Empty;
-    public Stopwatch? StopWatch { get; set; }
-    public double? BestFitness { get; set; }
 
     private TimeSpan ElapsedTime => StopWatch?.Elapsed ?? TimeSpan.Zero;
-    public string? Solution { get; set; }
-    public bool IsSatisfied { get; set; }
-
-    public int Instance { get; private set; }
-
-    public bool HideOutput { get; set; }
 
     private void Write()
     {
@@ -116,6 +130,9 @@ public class OutputWriter
         }
     }
 
+    /// <summary>
+    /// Resets the output for a new instance and clears the solution.
+    /// </summary>
     public void ResetInstance()
     {
         if (HideOutput)
@@ -131,6 +148,10 @@ public class OutputWriter
         }
     }
 
+    /// <summary>
+    /// Writes a message to the output asynchronously.
+    /// </summary>
+    /// <param name="message">The message to write.</param>
     public void WriteLine(string message)
     {
         if (HideOutput)
@@ -147,6 +168,10 @@ public class OutputWriter
         output.AppendLine($"│ {label.PadRight(leftWidth)} │ {value.PadRight(rightWidth)} │{_buffer}");
     }
 
+    /// <summary>
+    /// Writes a completion message to the output.
+    /// </summary>
+    /// <param name="message">The completion message to write.</param>
     public void WriteCompletion(string message)
     {
         if (HideOutput)
