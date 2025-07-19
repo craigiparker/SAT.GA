@@ -147,26 +147,27 @@ public class GaConfigParser
     /// </summary>
     private static void PrintHelp()
     {
+        var config = new GaConfig();
         Console.WriteLine("SAT.GA Configuration Options: Usage SAT.GA <fileName> [-flag] [value] pairs");
-        Console.WriteLine("  -p, --population <int>      Population size (default: 100)");
-        Console.WriteLine("  -g, --generations <int>     Number of generations (default: 500)");
-        Console.WriteLine("  -m, --mutation-rate <double> Mutation probability (default: 0.01)");
-        Console.WriteLine("  -c, --crossover-rate <double> Crossover probability (default: 0.9)");
-        Console.WriteLine("  -e, --elitism-rate <double> Elitism rate (default: 0.1)");
+        Console.WriteLine($"  -p, --population <int>      Population size (default: {config.PopulationSize})");
+        Console.WriteLine($"  -g, --generations <int>     Number of generations (default: {config.Generations})");
+        Console.WriteLine($"  -m, --mutation-rate <double> Mutation probability (default: {config.MutationRate})");
+        Console.WriteLine($"  -c, --crossover-rate <double> Crossover probability (default: {config.CrossoverRate})");
+        Console.WriteLine($"  -e, --elitism-rate <double> Elitism rate (default: {config.ElitismRate})");
         Console.WriteLine("  -s, --seed <int>            Random seed (default: null)");
-        Console.WriteLine("  -t, --tournament <int>      Tournament size (default: 3)");
-        Console.WriteLine("      --tabu <int>           Tabu tenure (default: 5)");
-        Console.WriteLine("  -a, --amplification <double> Amplification factor (default: 2.0)");
-        Console.WriteLine("  -l, --local-search <bool>   Enable local search (default: true)");
-        Console.WriteLine("  -fc, --file-count <int>   Limit how many files are processed when folder option used (default: 1000)");
-        Console.WriteLine("  -tc, --thread-count <int>   Number of threads used to process in parallel (default: 1)");
-        Console.WriteLine("      --mutation-bits <int>   Number of bits to mutate (default: 1)");
-        Console.WriteLine("      --local-search-method <string> Local search method (default: Tabu)");
-        Console.WriteLine("      --selection <string>           Selection operator (default: Tournament)");
-        Console.WriteLine("      --crossover <string>          Crossover operator (default: Uniform)");
-        Console.WriteLine("      --mutation <string>           Mutation operator (default: Guided)");
-        Console.WriteLine("      --fitness <string>            Fitness function (default: Amplified)");
-        Console.WriteLine("      --generator <string>            Population Generator (default: Clause)");
+        Console.WriteLine($"  -t, --tournament <int>      Tournament size (default: {config.TournamentSize})");
+        Console.WriteLine($"      --tabu <int>           Tabu tenure (default: {config.TabuTenure})");
+        Console.WriteLine($"  -a, --amplification <double> Amplification factor (default: {config.AmplificationFactor})");
+        Console.WriteLine($"  -l, --local-search <bool>   Enable local search (default: {config.UseLocalSearch})");
+        Console.WriteLine($"  -fc, --file-count <int>   Limit how many files are processed when folder option used (default: {config.FileCountLimit})");
+        Console.WriteLine($"  -tc, --thread-count <int>   Number of threads used to process in parallel (default: {config.ThreadCount})");
+        Console.WriteLine($"      --mutation-bits <int>   Number of bits to mutate (default: {config.MutationBits})");
+        Console.WriteLine($"      --local-search-method <string> Local search method (default: {config.LocalSearchMethod})");
+        Console.WriteLine($"      --selection <string>           Selection operator (default: {config.SelectionOperator})");
+        Console.WriteLine($"      --crossover <string>          Crossover operator (default: {config.CrossoverOperator})");
+        Console.WriteLine($"      --mutation <string>           Mutation operator (default: {config.MutationOperator})");
+        Console.WriteLine($"      --fitness <string>            Fitness function (default: {config.FitnessFunction})");
+        Console.WriteLine($"      --generator <string>            Population Generator (default: {config.PopulationGenerator})");
         Console.WriteLine("  -h, --help                  Show this help message");
     }
 }
