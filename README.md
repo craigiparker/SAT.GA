@@ -48,8 +48,8 @@ SAT.GA benchmarks/uf50-218.cnf -p 50 -g 1000 -m 0.02 -tc 4
 
 | Option               | Description                          | Default |
 |----------------------|--------------------------------------|---------|
-| `-p`, `-population`  | Population size                      | 100     |
-| `-g`, `-generations` | Maximum generations                  | 500     |
+| `-p`, `-population`  | Population size                      | 30     |
+| `-g`, `-generations` | Maximum generations                  | 20000     |
 | `-m`, `-mutation-rate` | Mutation probability              | 0.01    |
 | `-c`, `-crossover-rate` | Crossover probability            | 0.9     |
 | `-t`, `-tournament`  | Tournament size for selection        | 3       |
