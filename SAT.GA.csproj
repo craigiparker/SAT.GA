@@ -10,4 +10,13 @@
 	<RuntimeIdentifier>win-x64</RuntimeIdentifier>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Tests\**" />
+    <Compile Remove="Test\**" />
+    <EmbeddedResource Remove="Tests\**" />
+    <EmbeddedResource Remove="Test\**" />
+    <None Remove="Tests\**" />
+    <None Remove="Test\**" />
+  </ItemGroup>
+
 </Project>
